@@ -419,4 +419,4 @@
  ;;      ;use triple underscore `___` for slash `/` in page title
  ;;      ;use Percent-encoding for other invalid characters
  :file/name-format :triple-lowbar
- :journal/page-title-format "do MMM yyyy"}
+ :journal/page-title-format "E, dd.MM.yyyy"}
