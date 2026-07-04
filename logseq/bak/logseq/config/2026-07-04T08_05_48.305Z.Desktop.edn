@@ -420,4 +420,4 @@
  ;;      ;use Percent-encoding for other invalid characters
  :file/name-format :triple-lowbar
  :journal/page-title-format "do MMM yyyy"
- :feature/enable-timetracking? true}
+ :feature/enable-timetracking? false}
