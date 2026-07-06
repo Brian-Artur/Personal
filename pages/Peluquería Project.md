@@ -21,6 +21,8 @@
 	- frontent : React
 	- backend : Node + Express
 	- infra : mariadb
+- logseq.order-list-type:: number
+- logseq.order-list-type:: number
 - **Esquema + semilla**: las tres tablas y datos inventados (3-4 clientes, `corte`+`uñas`, 5-6 citas repartidas en una semana). *Verificas con un `SELECT`.*
   logseq.order-list-type:: number
 - **Backend solo-lectura**: `GET servicios`, `GET clientes`, `GET citas` de una semana. *Verificas con Postman.*
