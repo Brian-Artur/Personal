@@ -19,14 +19,16 @@
 	- frontent : React
 	- backend : Node + Express
 	- infra : mariadb
-- ### Partes
+- ### v0
 	- Crear la estructura y entrar
 	- Inicializar Git
 	- El `.gitignore` raíz
 	- El `README.md` de una línea
 	- Meter los `.gitkeep` (antes del `add`)
 	- El primer commit — v0
-	-
+-
+- ### v1
+-
 - ### **Esquema + semilla**: las tres tablas y datos inventados (3-4 clientes, `corte`+`uñas`, 5-6 citas repartidas en una semana). *Verificas con un `SELECT`.*
 -
 - **Backend solo-lectura**: `GET servicios`, `GET clientes`, `GET citas` de una semana. *Verificas con Postman.*
