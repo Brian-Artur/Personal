@@ -10,7 +10,8 @@
 	- Mover
 	- Cancelar
 -
-- #
+- # Estrategia de ramas
+-
 -
 - # Agenda - Calendario
 - ## Etapas
