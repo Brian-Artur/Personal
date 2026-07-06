@@ -1,7 +1,7 @@
 # Modelo de negocio
 - ## Palabras clave
 - 3 Sustantivos
-	- Cliente
+	- Cliente ( id, nombre, telefono )`
 	- Servicio
 	- Cita
 - 3 Verbos
