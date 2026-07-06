@@ -10,7 +10,7 @@
  ;; Available options:
  ;; - :now for NOW/LATER style (default)
  ;; - :todo for TODO/DOING style
- :preferred-workflow :now
+ :preferred-workflow :todo
 
  ;; Exclude directories/files.
  ;; Example usage:
@@ -419,4 +419,5 @@
  ;;      ;use triple underscore `___` for slash `/` in page title
  ;;      ;use Percent-encoding for other invalid characters
  :file/name-format :triple-lowbar
- :journal/page-title-format "yyyy-MM-dd"}
+ :journal/page-title-format "do MMM yyyy"
+ :feature/enable-timetracking? true}
