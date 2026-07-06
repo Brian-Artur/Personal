@@ -299,7 +299,7 @@
  ;;  :charge-range    600}   ; Default value: 600
 
  ;; Favorites to list on the left sidebar
- :favorites ["Peluquería Project" "Develop"]
+ :favorites ["Trading" "Peluquería Project" "Develop"]
 
  ;; Set flashcards interval.
  ;; Expected value:
