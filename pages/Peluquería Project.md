@@ -15,14 +15,14 @@
 -
 -
 - # Agenda - Calendario
-- ## Etapas
-- ### 1. **Esqueleto**: monorepo
+- ## 1. **Esqueleto**: monorepo
 	- frontent : React
 	- backend : Node + Express
 	- infra : mariadb
 - #### Partes
 - Crear la estructura y entrar:
 - ### **Esquema + semilla**: las tres tablas y datos inventados (3-4 clientes, `corte`+`uñas`, 5-6 citas repartidas en una semana). *Verificas con un `SELECT`.*
+-
 - **Backend solo-lectura**: `GET servicios`, `GET clientes`, `GET citas` de una semana. *Verificas con Postman.*
   logseq.order-list-type:: number
 - **Frontend solo-lectura**: calendario semanal que **pinta** las citas leídas. ← Aquí llega el momento "papel → pantalla". Es tu recompensa a mitad de camino, y es a propósito: es el antídoto contra saltar del barco.
