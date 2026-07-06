@@ -1,4 +1,5 @@
-# Etapas
+# Agenda - Calendario
+- ## Etapas
 - **Esqueleto**: monorepo front/back (como `pokeapi-lab`, salvo que quieras separar) + un `/health` que confirme que Express habla con MariaDB. *Verificas con `curl /health`.*
   logseq.order-list-type:: number
 - **Esquema + semilla**: las tres tablas y datos inventados (3-4 clientes, `corte`+`uñas`, 5-6 citas repartidas en una semana). *Verificas con un `SELECT`.*
