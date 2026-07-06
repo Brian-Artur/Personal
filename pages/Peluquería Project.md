@@ -3,7 +3,8 @@
 - 3 Sustantivos
 	- Cliente *( id, nombre, telefono )*
 	- Servicio *( id, nombre, duracion_min, precio)*
-	- Cita *( id, cliente_id, servicio_id, inicio, ??? )*
+	- Cita *( id, cliente_id, servicio_id, inicio, estado )*
+		- estado : ENUM('reservada','cancelada','completada')
 - 3 Verbos
 	- Crear
 	- Mover
