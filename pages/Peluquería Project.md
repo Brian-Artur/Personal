@@ -1,6 +1,12 @@
 # Modelo de negocio
 - ## Palabras clave
 - 3 Sustantivos
+	- Cliente
+	- Servicio
+	- Cita
+- 3 Verbos
+	- Crear
+	- Mover
 	-
 -
 - # Agenda - Calendario
