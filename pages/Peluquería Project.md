@@ -19,8 +19,10 @@
 	- frontent : React
 	- backend : Node + Express
 	- infra : mariadb
-- #### Partes
-- Crear la estructura y entrar:
+- ### Partes
+	- Crear la estructura y entrar
+	- Inicializar Git
+	-
 - ### **Esquema + semilla**: las tres tablas y datos inventados (3-4 clientes, `corte`+`uñas`, 5-6 citas repartidas en una semana). *Verificas con un `SELECT`.*
 -
 - **Backend solo-lectura**: `GET servicios`, `GET clientes`, `GET citas` de una semana. *Verificas con Postman.*
