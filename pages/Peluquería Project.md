@@ -16,12 +16,11 @@
 -
 - # Agenda - Calendario
 - ## Etapas
-- **Esqueleto**: monorepo 
-  logseq.order-list-type:: number
+- ### 1. **Esqueleto**: monorepo
 	- frontent : React
 	- backend : Node + Express
 	- infra : mariadb
-- logseq.order-list-type:: number
+- #### Partes
 - logseq.order-list-type:: number
 - **Esquema + semilla**: las tres tablas y datos inventados (3-4 clientes, `corte`+`uñas`, 5-6 citas repartidas en una semana). *Verificas con un `SELECT`.*
   logseq.order-list-type:: number
