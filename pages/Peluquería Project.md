@@ -7,7 +7,7 @@
 - 3 Verbos
 	- Crear
 	- Mover
-	-
+	- cancelar
 -
 - # Agenda - Calendario
 - ## Etapas
