@@ -1,10 +1,9 @@
 # Modelo de negocio
 - ## Palabras clave
 - 3 Sustantivos
-	- Cliente ( id, nombre, telefono )
-	-
-	- Servicio
-	- Cita
+	- Cliente *( id, nombre, telefono )*
+	- Servicio *( id, nombre, duracion_min, precio)*
+	- Cita *( id, cliente_id→cliente, servicio_id→servicio, inicio, ??? )*
 - 3 Verbos
 	- Crear
 	- Mover
