@@ -3,11 +3,11 @@
 - 3 Sustantivos
 	- Cliente *( id, nombre, telefono )*
 	- Servicio *( id, nombre, duracion_min, precio)*
-	- Cita *( id, cliente_id→cliente, servicio_id→servicio, inicio, ??? )*
+	- Cita *( id, cliente_id, servicio_id, inicio, ??? )*
 - 3 Verbos
 	- Crear
 	- Mover
-	- cancelar
+	- Cancelar
 -
 - # Agenda - Calendario
 - ## Etapas
