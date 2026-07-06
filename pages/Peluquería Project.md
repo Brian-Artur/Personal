@@ -1,6 +1,7 @@
 # Modelo de negocio
 - ## Palabras clave
 - 3 Sustantivos
+	-
 -
 - # Agenda - Calendario
 - ## Etapas
