@@ -2,10 +2,7 @@
 - ## Palabras clave
 - 3 Sustantivos
 	- Cliente ( id, nombre, telefono )
-	- ```ts
-	  const hola = "hola";
-	  
-	  ```
+	-
 	- Servicio
 	- Cita
 - 3 Verbos
