@@ -1,17 +1,17 @@
 # Modelo de negocio
-- ## Palabras clave
-- 3 Sustantivos
-	- Cliente *( id, nombre, telefono )*
-	- Servicio *( id, nombre, duracion_min, precio)*
-	- Cita *( id, cliente_id, servicio_id, inicio, estado )*
-		- estado : ENUM('reservada','cancelada','completada')
-- 3 Verbos
-	- Crear
-	- Mover
-	- Cancelar
+	- ## Palabras clave
+		- 3 Sustantivos
+			- Cliente *( id, nombre, telefono )*
+			- Servicio *( id, nombre, duracion_min, precio)*
+			- Cita *( id, cliente_id, servicio_id, inicio, estado )*
+				- estado : ENUM('reservada','cancelada','completada')
+		- 3 Verbos
+			- Crear
+			- Mover
+			- Cancelar
 -
 - # Estrategia de ramas (git)
-- ![Untitled-2026-06-13-1542.svg](../assets/Untitled-2026-06-13-1542_1783337781635_0.svg)
+	- ![Untitled-2026-06-13-1542.svg](../assets/Untitled-2026-06-13-1542_1783337781635_0.svg){:height 142, :width 576}
 -
 -
 - # Agenda - Calendario
