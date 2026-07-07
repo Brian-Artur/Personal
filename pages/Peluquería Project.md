@@ -39,7 +39,8 @@
 				  logseq.order-list-type:: number
 				- Añadir la línea `./initdb:/docker-entrypoint-initdb.d` a volumes de `docker-compose.yml`.
 				  logseq.order-list-type:: number
-			- Levantar el contenerdor con *docker compose*.
+				- Levantar el contenerdor con *docker compose*.
+				  logseq.order-list-type:: number
 			-
 -
 - ### **Esquema + semilla**: las tres tablas y datos inventados (3-4 clientes, `corte`+`uñas`, 5-6 citas repartidas en una semana). *Verificas con un `SELECT`.*
