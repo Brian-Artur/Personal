@@ -30,7 +30,7 @@
 			- Crear el contenerdor para la base de datos.
 				- Crear `db.env` con la contraseña del *root* y del *usuario-app*.
 				  logseq.order-list-type:: number
-					- logseq.order-list-type:: number
+					-
 -
 - ### **Esquema + semilla**: las tres tablas y datos inventados (3-4 clientes, `corte`+`uñas`, 5-6 citas repartidas en una semana). *Verificas con un `SELECT`.*
 -
