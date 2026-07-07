@@ -35,6 +35,8 @@
 					- El usuario que usa la app es el que defino. Pero no hace falta calentarse la cabe za con el nombre.
 				- Crear `docker-compose.yml`.
 				  logseq.order-list-type:: number
+				- Crear carpeta *initdb/ con archivos
+				  logseq.order-list-type:: number
 				- Añadir la línea `./initdb:/docker-entrypoint-initdb.d` a volumes de `docker-compose.yml`.
 				  logseq.order-list-type:: number
 			- Levantar el contenerdor con *docker compose*.
