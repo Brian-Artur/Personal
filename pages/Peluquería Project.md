@@ -27,7 +27,8 @@
 			- Meter los `.gitkeep` (antes del `add`)
 			- El primer commit — v0
 		- ### v1
-			- Crear el contener
+			- Crear el contenerdor para la base de datos.
+				- logseq.order-list-type:: number
 -
 - ### **Esquema + semilla**: las tres tablas y datos inventados (3-4 clientes, `corte`+`uñas`, 5-6 citas repartidas en una semana). *Verificas con un `SELECT`.*
 -
