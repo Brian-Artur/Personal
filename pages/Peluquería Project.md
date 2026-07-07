@@ -48,7 +48,7 @@
 				  logseq.order-list-type:: number
 					- Producción: express, mysql2
 					- Desarrollo: typescript @types/node @types/express tsx
-				- Definir archivos básicos
+				- Definir archivos básicos para el */health*
 				  logseq.order-list-type:: number
 					- **`src/db.ts`** — el pool de conexión a MariaDB:
 					- **`src/routes/health.ts`** — la ruta honesta:
@@ -56,7 +56,6 @@
 					- ![image.png](../assets/image_1783423621431_0.png)
 					- Colocar un `src/.env` con las credenciales para que no lo pille GitHub.
 					- Instalar dependencia de producción: dotenv
-					-
 -
 - ### **Esquema + semilla**: las tres tablas y datos inventados (3-4 clientes, `corte`+`uñas`, 5-6 citas repartidas en una semana). *Verificas con un `SELECT`.*
 -
