@@ -15,19 +15,19 @@
 -
 -
 - # Agenda - Calendario
-- ## 1. **Esqueleto**: monorepo
-	- frontent : React
-	- backend : Node + Express
-	- infra : mariadb
-- ### v0
-	- Crear la estructura y entrar
-	- Inicializar Git
-	- El `.gitignore` raíz
-	- El `README.md` de una línea
-	- Meter los `.gitkeep` (antes del `add`)
-	- El primer commit — v0
--
-- ### v1
+	- ## 1. **Esqueleto**: monorepo
+		- frontent : React
+		- backend : Node + Express
+		- infra : mariadb
+		- ### v0
+			- Crear la estructura y entrar
+			- Inicializar Git
+			- El `.gitignore` raíz
+			- El `README.md` de una línea
+			- Meter los `.gitkeep` (antes del `add`)
+			- El primer commit — v0
+		- ### v1
+			- Crear el contener
 -
 - ### **Esquema + semilla**: las tres tablas y datos inventados (3-4 clientes, `corte`+`uñas`, 5-6 citas repartidas en una semana). *Verificas con un `SELECT`.*
 -
