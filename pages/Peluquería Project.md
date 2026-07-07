@@ -53,6 +53,7 @@
 					- **`src/db.ts`** — el pool de conexión a MariaDB:
 					- **`src/routes/health.ts`** — la ruta honesta:
 					- **`src/index.ts`** — arranca el servidor
+					- ![image.png](../assets/image_1783423621431_0.png)
 -
 - ### **Esquema + semilla**: las tres tablas y datos inventados (3-4 clientes, `corte`+`uñas`, 5-6 citas repartidas en una semana). *Verificas con un `SELECT`.*
 -
