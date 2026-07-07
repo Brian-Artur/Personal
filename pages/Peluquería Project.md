@@ -53,7 +53,7 @@
 					- **`src/db.ts`** — el pool de conexión a MariaDB:
 					- **`src/routes/health.ts`** — la ruta honesta:
 					- **`src/index.ts`** — arranca el servidor
-					- ![image.png](../assets/image_1783423621431_0.png)
+					- ![image.png](../assets/image_1783437370818_0.png)
 					- Colocar un `src/.env` con las credenciales para que no lo pille GitHub.
 					- Instalar dependencia de producción: dotenv
 			-
