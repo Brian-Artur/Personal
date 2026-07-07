@@ -56,7 +56,8 @@
 					- ![image.png](../assets/image_1783437370818_0.png)
 					- Colocar un `src/.env` con las credenciales para que no lo pille GitHub.
 					- Instalar dependencia de producción: dotenv
-			- Pasar del */health* a un
+			- Pasar del */health* a un servicio con rutas.
+			-
 -
 - ### **Esquema + semilla**: las tres tablas y datos inventados (3-4 clientes, `corte`+`uñas`, 5-6 citas repartidas en una semana). *Verificas con un `SELECT`.*
 -
