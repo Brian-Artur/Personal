@@ -33,7 +33,8 @@
 				  collapsed:: true
 					- El usuario *root* se llama así siempre
 					- El usuario que usa la app es el que defino. Pero no hace falta calentarse la cabe za con el nombre.
-				- logseq.order-list-type:: number
+				- Crear `docker-compose.yml`
+				  logseq.order-list-type:: number
 -
 - ### **Esquema + semilla**: las tres tablas y datos inventados (3-4 clientes, `corte`+`uñas`, 5-6 citas repartidas en una semana). *Verificas con un `SELECT`.*
 -
