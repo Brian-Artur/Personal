@@ -4,4 +4,4 @@
 - [sanchezzfx](https://www.instagram.com/sanchezzfx/)
 -
 - # Bybit
-- No se puede trabajar en
+- No se puede trabajar en futuros, ni apalancado. Porque Bybit no cuenta con
