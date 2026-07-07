@@ -28,7 +28,7 @@
 			- El primer commit — v0
 		- ### v1
 			- Crear el contenerdor para la base de datos.
-				- Crear `db.env` con la ==contraseña= del *root* y del *usuario-app*.
+				- Crear `db.env` con la contraseña del *root* y del *usuario-app*.
 				  logseq.order-list-type:: number
 					-
 -
