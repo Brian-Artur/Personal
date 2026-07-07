@@ -44,7 +44,10 @@
 			- Crear la parte backend
 				- `npm init -y`
 				  logseq.order-list-type:: number
-				- logseq.order-list-type:: number
+				- instalar dependencias: 
+				  logseq.order-list-type:: number
+				- Producción: express, mysql2
+				- Desarrollo:
 -
 - ### **Esquema + semilla**: las tres tablas y datos inventados (3-4 clientes, `corte`+`uñas`, 5-6 citas repartidas en una semana). *Verificas con un `SELECT`.*
 -
