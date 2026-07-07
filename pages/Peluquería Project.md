@@ -28,10 +28,12 @@
 			- El primer commit — v0
 		- ### v1
 			- Crear el contenerdor para la base de datos.
-				- Crear `db.env` con la contraseña del *root* y del *usuario-app*.
+				- Crear `db.env` con la contraseña del *root* y del *usuario-app*. Es solo para la base de datos.
 				  logseq.order-list-type:: number
-					- El usuarior *root* se llama así siempre
-					- El
+				  collapsed:: true
+					- El usuario *root* se llama así siempre
+					- El usuario que usa la app es el que defino. Pero no hace falta calentarse la cabe za con el nombre.
+				- logseq.order-list-type:: number
 -
 - ### **Esquema + semilla**: las tres tablas y datos inventados (3-4 clientes, `corte`+`uñas`, 5-6 citas repartidas en una semana). *Verificas con un `SELECT`.*
 -
