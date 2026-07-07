@@ -48,8 +48,11 @@
 				  logseq.order-list-type:: number
 					- Producción: express, mysql2
 					- Desarrollo: typescript @types/node @types/express tsx
-				- Definir
+				- Definir archivos básicos
 				  logseq.order-list-type:: number
+					- **`src/db.ts`** — el pool de conexión a MariaDB:
+					- **`src/routes/health.ts`** — la ruta honesta:
+					-
 -
 - ### **Esquema + semilla**: las tres tablas y datos inventados (3-4 clientes, `corte`+`uñas`, 5-6 citas repartidas en una semana). *Verificas con un `SELECT`.*
 -
