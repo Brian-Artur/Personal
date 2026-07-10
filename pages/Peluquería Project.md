@@ -58,19 +58,123 @@
 					- Instalar dependencia de producción: dotenv
 			- Pasar del */health* a un servicio con rutas.
 			-
--
-- ### **Esquema + semilla**: las tres tablas y datos inventados (3-4 clientes, `corte`+`uñas`, 5-6 citas repartidas en una semana). *Verificas con un `SELECT`.*
--
-- **Backend solo-lectura**: `GET servicios`, `GET clientes`, `GET citas` de una semana. *Verificas con Postman.*
-  logseq.order-list-type:: number
-- **Frontend solo-lectura**: calendario semanal que **pinta** las citas leídas. ← Aquí llega el momento "papel → pantalla". Es tu recompensa a mitad de camino, y es a propósito: es el antídoto contra saltar del barco.
-  logseq.order-list-type:: number
-- **Backend escritura**: `POST cita` (crear), `PATCH cita` (mover = cambiar el inicio), cancelar. *Verificas con Postman.*
-  logseq.order-list-type:: number
-- **Frontend interactivo**: crear (click en hueco → form), mover, cancelar, contra la API real.
-  logseq.order-list-type:: number
-- **Pulido del calendario**. Aquí la UI sí es producto.
-  logseq.order-list-type:: number
+- **v1 — Construido hasta ahora**
+- Infraestructura
+	- MariaDB 12 en Docker
+		- Puerto atado a loopback (`127.0.0.1:3306`) → solo accesible desde la propia máquina
+		- Bypass de UFW por Docker resuelto vía binding en el compose, no vía firewall
+	- Esquema y semilla versionados en `infra/mariadb/initdb/`
+		- Se ejecutan solos al arrancar con volumen vacío
+		- Reproducible: mismo `docker compose up` = misma BD en cualquier máquina
+		- Prefijos numéricos (`01-`, `02-`) fuerzan el orden de ejecución
+	- Credenciales fuera del repo
+		- `db.env` gitignored → se recrea a mano en cada entorno
+		- Usuario de app (`peluqueria_app`) separado de root, privilegio mínimo
+		- `root` y usuario de app nacen automáticamente en el primer arranque
+- Modelo de datos (tres tablas)
+	- `cliente` (id, nombre, telefono)
+		- Teléfono opcional (permite NULL) y como texto, no número
+	- `servicio` (id, nombre, duracion_min, precio)
+		- Es catálogo; `precio` aún no se usa pero está preparado
+	- `cita` (id, cliente_id, servicio_id, inicio, fin, estado)
+		- FK a cliente y servicio → integridad referencial a nivel de motor
+		- `estado` ENUM (reservada/cancelada/completada)
+			- Soft-delete: cancelar no borra, cambia estado
+			- Máquina de estados
+		- `inicio` + `fin` congelados en la cita (patrón snapshot)
+			- La cita es dueña de su duración
+			- Cambiar el catálogo no altera citas ya creadas
+- Backend (Node + Express + TypeScript)
+	- Arquitectura por capas
+		- `repository` → solo SQL, consultas parametrizadas (anti-inyección)
+		- `service` → reglas de negocio, sin saber nada de HTTP
+		- `router` → valida forma con Zod, llama al service, traduce a HTTP
+	- Manejo de errores
+		- Middleware central (el último en montarse)
+		- Errores tipados: `ErrorNoEncontrado` → 404, `ErrorConflicto` → 409
+	- `/health` verifica de verdad la conexión a la BD
+	- Endpoints
+		- Lectura
+			- `GET /servicios`
+			- `GET /clientes`
+			- `GET /citas` (con JOIN que resuelve nombres de cliente y servicio)
+		- Escritura
+			- `POST /citas` → crear; el backend calcula el `fin`
+			- `PATCH /citas/:id` → mover; recalcula `fin`
+			- `POST /citas/:id/cancelar` → transición de estado
+		- Reglas de transición defendidas
+			- Solo se mueven/cancelan citas `reservada`; si no → 409
+- Frontend (React + Vite + TypeScript)
+	- Calendario semanal en CSS Grid, a mano (sin librería de calendario)
+		- Malla fina de 5 min por debajo; líneas visibles solo en horas en punto
+		- Cada cita se posiciona por columna (día) y filas (inicio→fin)
+		- La altura del bloque **es** la duración
+	- Estados con color: reservada azul, completada verde, cancelada gris tachada
+	- Fechas
+		- BD/API en UTC; el navegador convierte a hora local
+		- `Date` nativo (sin librería de fechas todavía)
+	- Componentes troceados
+		- `Calendario`, `CabeceraDias`, `Rejilla`, `TarjetaCita`
+		- Más utilidades: `posicion.ts`, `constantes.ts`, `tipos.ts`
+	- Proxy de Vite reenvía `/api` al backend
+		- Evita CORS en desarrollo
+		- En producción lo resolverá Nginx
+- Pendiente para cerrar v1
+	- Panel único: crear / ver / mover / cancelar por click
+	- Pulido estético
+		- Texto desbordado en citas de 30 min
+		- Cancelada se ve medio-azul (CSS)
+		- Definir tema de color
+- **v2 — Aparcado (concebido como un solo bloque futuro)**
+- Regla madre
+	- Casi toda la complejidad nace de dos recursos que se agotan: **empleados** y **recursos físicos**
+	- Sin ellos, ninguno de los problemas de abajo existe → van juntos o no van
+- Modelo — de "una cita = un servicio" a cabecera/líneas
+	- `cita` pasa a ser el *sobre*: cliente, ventana en el local, estado
+		- Su `fin` será el máximo de sus líneas
+	- `cita_servicio` (nueva)
+		- Cada servicio dentro de una cita
+		- Con su empleado, su recurso y su propia ventana inicio/fin
+		- Permite servicios en paralelo (uñas + tinte a la vez)
+	- `empleado` y `empleado_skill`
+		- Matriz habilidad/preferencia por servicio
+		- Contempla al empleado nuevo al que se testea
+	- `recurso` (butacas, camillas)
+		- Contable
+		- El tipo depende del servicio (depilación → camilla, no butaca)
+	- Migración desde v1 probada como no-destructiva
+		- La `cita` conserva su identidad
+		- Cada cita vieja genera una línea en `cita_servicio` con empleado NULL
+- Tipos de proceso
+	- Un servicio puede tener fases
+		- Activa
+		- Pasiva
+		- Intermedia / de revisión (tinte que hay que vigilar por si quema, sin estar encima)
+	- Invariante central: **procesos activos ≤ empleados disponibles**
+		- Los pasivos solo limitados por recursos físicos (tantos como butacas/camillas)
+	- Esto permite el solape *correcto*
+		- Dos clientas a la vez sí, si hay recursos y ningún choque de procesos activos
+- Detección de solapes
+	- En v1 no existe (una sola persona implícita; se permiten solapes sin control)
+	- En v2 la pregunta cambia
+		- Ya no "¿esta franja está ocupada?"
+		- Sino "¿este empleado / este recurso está libre en esta ventana?"
+	- Depende enteramente de las tablas nuevas
+- Disponibilidad y horarios variables
+	- Horario de apertura como dato en BD, no constante en código
+		- Cierre al mediodía
+		- Horario de verano distinto
+		- Domingos según evento
+	- Láser corporal
+		- Profesional externo subcontratado
+		- Disponibilidad limitada (un par de días al mes)
+		- El caso que rompe el modelo ingenuo
+- Más adelante (v3+ / "muy profesional")
+	- Estadísticas y dashboard
+		- % cancelaciones, ocupación
+		- Tiempo real vs estimado (¿se pasó?, ¿llamo a quien libraba?)
+	- Zona de espera / gestión de cola
+	- Congelar precio en la cita al vender (como el `fin`) → histórico inmutable de facturación
 -
 -
 -
