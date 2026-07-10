@@ -72,7 +72,6 @@
 		- Usuario de app (`peluqueria_app`) separado de root, privilegio mínimo
 		- `root` y usuario de app nacen automáticamente en el primer arranque
 - Modelo de datos (tres tablas)
-	- ![image.png](../assets/image_1783707162538_0.png)
 	- `cliente` (id, nombre, telefono)
 		- Teléfono opcional (permite NULL) y como texto, no número
 	- `servicio` (id, nombre, duracion_min, precio)
