@@ -9,7 +9,7 @@
 			- **Crear**
 			- **Modificar**
 			- **Cancelar**
-- ![image.png](../assets/image_1783759394974_0.png)
+- ![image.png|300x300](../assets/image_1783759394974_0.png)
 - {{renderer excalidraw, Estructura backend}}
 - # Estrategia de ramas (git)
 	- ![Untitled-2026-06-13-1542.svg](../assets/Untitled-2026-06-13-1542_1783337781635_0.svg){:height 142, :width 576}
