@@ -100,18 +100,29 @@ pre code {
 }
 
 
-/* CURSIVA  (Logseq usa <i>, no <em>) */
-.block-content :is(i, em):not([class]) {
-  color: #b4d273 !important;
+/* ============================================================
+   CÓDIGO EN LÍNEA
+   ============================================================ */
+:not(pre) > code {
+  color: #e37b7b !important;          /* rojo vino */
+  background-color: #29292c !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
 }
 
-/* NEGRITA  (<b> o <strong>) */
-.block-content :is(b, strong):not([class]) {
-  font-weight: 800 !important;
+
+/* ============================================================
+   CURSIVA  (solo renderizado)
+   ============================================================ */
+.block-content em {
+  color: #b4d273 !important;          /* verde */
 }
 
-/* NEGRITA + CURSIVA */
-.block-content :is(b, strong):not([class]) :is(i, em):not([class]),
-.block-content :is(i, em):not([class]) :is(b, strong):not([class]) {
-  color: #9e86c8 !important;
+
+/* ============================================================
+   NEGRITA + CURSIVA  (solo renderizado)
+   ============================================================ */
+.block-content strong em,
+.block-content em strong {
+  color: #9e86c8 !important;          /* morado */
 }
