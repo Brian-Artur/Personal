@@ -1,0 +1,30 @@
+:root {
+  --ls-font-family: "Noto Serif", serif;
+  --ct-code-font-family: "JetBrainsMono Nerd Font", monospace;
+}
+
+/* Aplica la fuente principal */
+#root > div,
+html,
+body {
+  font-family: var(--ls-font-family);
+}
+
+/* Fuente del código (inline y bloques) */
+:not(pre) > code,
+.CodeMirror,
+pre code {
+  font-family: var(--ct-code-font-family) !important;
+}
+
+/* Tamaño 17 para ambos */
+.ls-block,
+.block-content {
+  font-size: 17px;
+}
+
+:not(pre) > code,
+.CodeMirror,
+pre code {
+  font-size: 17px !important;
+}
