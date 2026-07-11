@@ -8,5 +8,5 @@
 	  Re-ejecuta el dueño del **estado** y sus descendientes.
 	- ![image.png](../assets/image_1783805982544_0.png)
 	- El diff compara descripción nueva vs anterior del Virtual DOM, no contra el DOM real.
-	- `setState`
+	- `setState` no cierra la vuelta, arranca la siguiente.
 -
