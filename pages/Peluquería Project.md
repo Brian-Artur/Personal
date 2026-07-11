@@ -59,7 +59,7 @@
 					- Colocar un `src/.env` con las credenciales para que no lo pille GitHub.
 					- Instalar dependencia de producción: dotenv
 			- Pasar del */health* a un servicio con rutas.
-- ```javascript
+- ```ts
   const hola = "hola";
   
   ```
