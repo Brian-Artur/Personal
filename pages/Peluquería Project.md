@@ -11,8 +11,6 @@
 			- **Crear**
 			- **Modificar**
 			- **Cancelar**
-- ![image.png](../assets/image_1783759394974_0.png)
-- {{renderer excalidraw, Estructura backend}}
 - # Estrategia de ramas (git)
 	- ![Untitled-2026-06-13-1542.svg](../assets/Untitled-2026-06-13-1542_1783337781635_0.svg){:height 142, :width 576}
 -
@@ -29,6 +27,7 @@
 			- El `README.md` de una línea
 			- Meter los `.gitkeep` (antes del `add`)
 			- El primer commit — v0
+			-
 		- ### v1
 			- Crear el contenerdor para la base de datos.
 				- Crear `db.env` con la contraseña del *root* y del *usuario-app*. Es solo para la base de datos.
