@@ -9,7 +9,7 @@
 			- **Crear**
 			- **Modificar**
 			- **Cancelar**
-			-
+- {{renderer excalidraw, excalidraw-2026-07-11-09-59-29}}
 -
 - # Estrategia de ramas (git)
 	- ![Untitled-2026-06-13-1542.svg](../assets/Untitled-2026-06-13-1542_1783337781635_0.svg){:height 142, :width 576}
