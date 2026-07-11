@@ -31,22 +31,19 @@ body {
   font-size: 17px;
 }
 
-/* ---- Fuente monoespaciada (código) ---- */
+/* Fuente monoespaciada */
 :not(pre) > code,
 .CodeMirror,
 pre code {
   font-family: var(--ct-code-font-family) !important;
-  font-size: 17px !important;
 }
 
-
-/* ============================================================
-   NEGRITA
-   (solo vista renderizada: al editar verás **texto** en crudo)
-   ============================================================ */
-.block-content strong {
-  /* font-weight: 800; */
-  color: #e37b7b;
+/* Tamaño 16 para toda la monoespaciada: código en línea + bloques */
+:not(pre) > code,
+.cp__fenced-code-block .CodeMirror,
+.cp__fenced-code-block .CodeMirror pre,
+.cp__fenced-code-block .CodeMirror-line {
+  font-size: 16px !important;
 }
 
 
@@ -120,10 +117,24 @@ pre code {
 /* NEGRITA  (<b> o <strong>) */
 .block-content :is(b, strong):not([class]) {
   font-weight: 800 !important;
+  color: #e37bb1;
 }
 
 /* NEGRITA + CURSIVA */
 .block-content :is(b, strong):not([class]) :is(i, em):not([class]),
 .block-content :is(i, em):not([class]) :is(b, strong):not([class]) {
   color: #9e86c8 !important;
+}
+
+
+/* ===== Bullet threading ===== */
+
+/* Hilo activo (codos) + bullets del camino → naranja */
+:root {
+  --ls-block-bullet-active-color: #e3a15c !important;
+}
+
+/* Verticales guía → gris suave, discretas */
+.block-children {
+  border-left-color: #4d4d52 !important;
 }

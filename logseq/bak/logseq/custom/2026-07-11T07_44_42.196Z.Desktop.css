@@ -31,21 +31,19 @@ body {
   font-size: 17px;
 }
 
-/* ---- Fuente monoespaciada (código) ---- */
+/* Fuente monoespaciada */
 :not(pre) > code,
 .CodeMirror,
 pre code {
   font-family: var(--ct-code-font-family) !important;
-  font-size: 17px !important;
 }
 
-
-/* ============================================================
-   NEGRITA
-   (solo vista renderizada: al editar verás **texto** en crudo)
-   ============================================================ */
-.block-content strong {
-  font-weight: 800;
+/* Tamaño 16 para toda la monoespaciada: código en línea + bloques */
+:not(pre) > code,
+.cp__fenced-code-block .CodeMirror,
+.cp__fenced-code-block .CodeMirror pre,
+.cp__fenced-code-block .CodeMirror-line {
+  font-size: 16px !important;
 }
 
 
@@ -111,18 +109,32 @@ pre code {
 }
 
 
-/* ============================================================
-   CURSIVA  (solo renderizado)
-   ============================================================ */
-.block-content em {
-  color: #b4d273 !important;          /* verde */
+/* CURSIVA  (Logseq usa <i>, no <em>) */
+.block-content :is(i, em):not([class]) {
+  color: #b4d273 !important;
+}
+
+/* NEGRITA  (<b> o <strong>) */
+.block-content :is(b, strong):not([class]) {
+  font-weight: 800 !important;
+  color: #e37bb1;
+}
+
+/* NEGRITA + CURSIVA */
+.block-content :is(b, strong):not([class]) :is(i, em):not([class]),
+.block-content :is(i, em):not([class]) :is(b, strong):not([class]) {
+  color: #9e86c8 !important;
 }
 
 
-/* ============================================================
-   NEGRITA + CURSIVA  (solo renderizado)
-   ============================================================ */
-.block-content strong em,
-.block-content em strong {
-  color: #9e86c8 !important;          /* morado */
+/* ===== Bullet threading ===== */
+
+/* Hilo activo (codos) + bullets del camino → naranja */
+:root {
+  --ls-block-bullet-active-color: #e3a15c !important;
+}
+
+/* Verticales guía → gris suave, discretas */
+.block-children {
+  border-left-color: #37373a !important;
 }
