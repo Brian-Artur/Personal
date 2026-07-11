@@ -117,7 +117,7 @@ pre code {
 /* NEGRITA  (<b> o <strong>) */
 .block-content :is(b, strong):not([class]) {
   font-weight: 800 !important;
-  color: #e37bb1;
+  color: #e37bcb;
 }
 
 /* NEGRITA + CURSIVA */
