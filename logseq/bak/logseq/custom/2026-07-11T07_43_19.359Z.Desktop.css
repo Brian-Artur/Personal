@@ -127,14 +127,8 @@ pre code {
 }
 
 
-/* ===== Bullet threading ===== */
-
-/* Hilo activo (codos) + bullets del camino → naranja */
-:root {
-  --ls-block-bullet-active-color: #e3a15c !important;
-}
-
-/* Verticales guía → gris suave, discretas */
-.block-children {
-  border-left-color: #4d4d52 !important;
+/* Hilo de bullet-threading — naranja suave */
+.block-children-left-border {
+  background-color: #e3a15c !important;
+  border-left-color: #e3a15c !important;
 }
