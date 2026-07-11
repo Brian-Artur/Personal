@@ -2,7 +2,9 @@
 	- ## Palabras clave
 		- 3 Sustantivos
 			- Cliente *( id, nombre, telefono )*
-			- Servicio *( id, nombre, duracion_min, precio)*
+			- 3 Sustantivos
+			  Cliente ( id, nombre, telefono )
+			  Servicio ( id, nombre, duracion_min, precio)Servicio *( id, nombre, duracion_min, precio)*
 			- Cita *( id, cliente_id, servicio_id, inicio, estado )*
 				- estado : ENUM('reservada','cancelada','completada')
 		- 3 Verbos
