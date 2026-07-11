@@ -5,4 +5,5 @@
 	- El **return** es el resultado esa ejecución, que *produce*: el JSX.
 	- ![Re-ejecuta.svg](../assets/Re-ejecuta_1783801868897_0.svg) 
 	  Re-ejecuta el dueño del **estado** y sus descendientes.
-	- ![image.png](../assets/image_1783805889317_0.png)
+	- ![image.png](../assets/image_1783805950703_0.png){:height 260, :width 749}
+-
