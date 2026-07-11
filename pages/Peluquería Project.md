@@ -13,7 +13,7 @@
 - # Estrategia de ramas (git)
 	- ![Untitled-2026-06-13-1542.svg](../assets/Untitled-2026-06-13-1542_1783337781635_0.svg){:height 142, :width 576}
 -
-- {{ex}}
+- /ren
 - # Agenda - Calendario
 	- ## 1. **Esqueleto**: monorepo
 		- frontent : React
