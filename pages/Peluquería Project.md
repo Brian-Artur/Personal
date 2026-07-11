@@ -1,7 +1,5 @@
 # Modelo de negocio
 	- ## Palabras clave
-		- ![image.png](../assets/image_1783759626871_0.png)
-		- ![Untitled-2026-07-11-1047.svg](../assets/Untitled-2026-07-11-1047_1783759721470_0.svg)
 		- 3 Sustantivos
 			- **Cliente** *( id, nombre, telefono )*
 			- **Servicio** *( id, nombre, duracion_min, precio)*
