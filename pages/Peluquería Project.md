@@ -57,7 +57,7 @@
 					- Colocar un `src/.env` con las credenciales para que no lo pille GitHub.
 					- Instalar dependencia de producción: dotenv
 			- Pasar del */health* a un servicio con rutas.
-			-
+-
 - **v1 — Construido hasta ahora**
 - Infraestructura
 	- MariaDB 12 en Docker
