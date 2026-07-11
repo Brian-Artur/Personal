@@ -27,7 +27,7 @@
 			- El `README.md` de una línea
 			- Meter los `.gitkeep` (antes del `add`)
 			- El primer commit — v0
-			-
+			- ![Untitled-2026-06-13-1542.excalidraw.svg](../assets/Untitled-2026-06-13-1542.excalidraw_1783761409082_0.svg)
 		- ### v1
 			- Crear el contenerdor para la base de datos.
 				- Crear `db.env` con la contraseña del *root* y del *usuario-app*. Es solo para la base de datos.
