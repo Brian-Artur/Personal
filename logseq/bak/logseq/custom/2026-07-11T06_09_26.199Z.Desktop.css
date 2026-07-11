@@ -31,19 +31,12 @@ body {
   font-size: 17px;
 }
 
-/* Fuente monoespaciada */
+/* ---- Fuente monoespaciada (código) ---- */
 :not(pre) > code,
 .CodeMirror,
 pre code {
   font-family: var(--ct-code-font-family) !important;
-}
-
-/* Tamaño 16 para toda la monoespaciada: código en línea + bloques */
-:not(pre) > code,
-.cp__fenced-code-block .CodeMirror,
-.cp__fenced-code-block .CodeMirror pre,
-.cp__fenced-code-block .CodeMirror-line {
-  font-size: 16px !important;
+  font-size: 17px !important;
 }
 
 
