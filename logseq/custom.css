@@ -125,3 +125,11 @@ pre code {
 .block-content :is(i, em):not([class]) :is(b, strong):not([class]) {
   color: #9e86c8 !important;
 }
+
+
+/* Color del hilo activo de bullet-threading — naranja suave */
+html[data-theme=dark],
+html[data-theme=light] {
+  --ls-block-bullet-threading-active-color-overwrite: #e3a15c !important;
+  --ls-block-bullet-threading-active-color: #e3a15c !important;
+}
