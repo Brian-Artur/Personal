@@ -127,8 +127,9 @@ pre code {
 }
 
 
-/* Hilo de bullet-threading — naranja suave */
-.block-children-left-border {
-  background-color: #e3a15c !important;
-  border-left-color: #e3a15c !important;
+/* Color del hilo activo de bullet-threading — naranja suave */
+html[data-theme=dark],
+html[data-theme=light] {
+  --ls-block-bullet-threading-active-color-overwrite: #e3a15c !important;
+  --ls-block-bullet-threading-active-color: #e3a15c !important;
 }
