@@ -20,8 +20,9 @@
 			  logseq.order-list-type:: number
 				- `id` — clave
 				- `nombre` — identificador que liga esta fila con su archivo de código (p. ej. `rsi_reversion`)
-				- `activa` —
-				- encendida/apagada (booleano)
+				- `activa` — Un interruptor por cada regla
+					- encendida
+					- apagada (booleano)
 				- `modo` —
 					- auto
 					- semiautomatico
