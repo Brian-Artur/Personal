@@ -7,6 +7,7 @@
 		- Node + Express
 		- MariaDB
 			- `alertas` : lo que llega de TradingView (registro histórico)
+			  logseq.order-list-type:: number
 			  Es un log de solo-añadir
 				- `id` — clave, autoincremental
 				- `tipo` — qué es (rsi, precio, cruce_linea, dominancia…)
@@ -15,6 +16,7 @@
 				- `direccion` — opcional, para cruces de línea (arriba/abajo)
 				- `payload` — el JSON crudo tal cual llegó (JSON), para auditoría y depuración
 				- `recibida_en` — marca de tiempo
+			- logseq.order-list-type:: number
 			- `reglas` — los parámetros de cada estrategia
 				- `id` — clave
 				- `nombre` — identificador que liga esta fila con su archivo de código (p. ej. `rsi_reversion`)
