@@ -26,7 +26,8 @@
 				- `qty` — tamaño de la operación
 				- `ventana_validez_seg` — cuán recientes deben ser las condiciones para valer
 				- `confirmacion_expira_seg` — cuánto espera una propuesta semiautomática antes de caducar
-				- `estado_actual` — fuera / en_largo / en_corto
+				- `estado_actual` — Evita
+				- fuera / en_largo / en_corto
 				- `actualizada_en`
 			- `ordenes` — el intento de ejecución en Bybit (el corazón)
 			  logseq.order-list-type:: number
