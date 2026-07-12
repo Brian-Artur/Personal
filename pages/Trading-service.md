@@ -8,7 +8,7 @@
 		- MariaDB
 			- `alertas` : lo que llega de TradingView (registro histórico)
 			  logseq.order-list-type:: number
-			  Es un log de solo-añadir
+			  Es un log de solo-añadir. *Un registro de los que está pasando fuera*
 				- `id` — clave, autoincremental
 				- `tipo` — qué es (rsi, precio, cruce_linea, dominancia…)
 				- `valor` — el número (62.5, 64000…)
