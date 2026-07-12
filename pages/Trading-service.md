@@ -26,6 +26,20 @@
 				- `confirmacion_expira_seg` — cuánto espera una propuesta semiautomática antes de caducar
 				- `estado_actual` — fuera / en_largo / en_corto
 				- `actualizada_en`
+			- `ordenes` — el intento de ejecución en Bybit (el corazón)
+				- `id` — clave
+				- `regla_id` — qué regla la originó (FK a `reglas`)
+				- `order_link_id` — tu identificador de cliente, **ÚNICO** (idempotencia: si reintentas tras un corte, Bybit deduplica)
+				- `bybit_order_id` — el id que devuelve Bybit (nulo hasta que responde)
+				- `symbol`, `side` (buy/sell), `tipo_orden` (market/limit)
+				- `qty` — cantidad
+				- `precio` — nulo en market, obligatorio en limit
+				- `estado` — el estado de la máquina (ahora lo detallo)
+				- `filled_qty` — cuánto se ha llenado (esto cubre los llenados parciales sin necesidad de un estado aparte)
+				- `avg_price` — precio medio de ejecución
+				- `motivo` — texto nulo, para guardar el porqué de un rechazo o error (oro para depurar)
+				- `confirmacion_expira_en` — marca de tiempo, solo para semiautomáticas en espera
+				- `creada_en`, `actualizada_en`
 	- Bybit (operar)
 	-
 -
