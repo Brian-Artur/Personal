@@ -50,7 +50,7 @@
 				- `motivo` — texto nulo, para guardar el porqué de un rechazo o error (oro para depurar)
 				- `confirmacion_expira_en` — marca de tiempo, solo para semiautomáticas en espera
 				- `creada_en`, `actualizada_en`
-			- `posiciones` — espejo de Bybit (lo abierto ahora mismo)*
+			- `posiciones` — **espejo de Bybit** *lo abierto ahora mismo*
 			  logseq.order-list-type:: number
 				- `symbol` — único (en modo one-way, una posición por símbolo)
 				  logseq.order-list-type:: number
@@ -58,7 +58,7 @@
 				  logseq.order-list-type:: number
 				- `actualizada_en`
 				  logseq.order-list-type:: number
-			- `saldo` — espejo de Bybit (por moneda)
+			- `saldo` — **espejo de Bybit** por moneda
 			  logseq.order-list-type:: number
 				- `coin` — único (BTC, USDT…)
 				  logseq.order-list-type:: number
