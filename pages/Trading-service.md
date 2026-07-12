@@ -51,6 +51,18 @@
 				  logseq.order-list-type:: number
 				- `actualizada_en`
 				  logseq.order-list-type:: number
+			- `saldo` — espejo de Bybit (por moneda)
+			  logseq.order-list-type:: number
+				- `coin` — único (BTC, USDT…)
+				  logseq.order-list-type:: number
+			- `balance` — total
+			  logseq.order-list-type:: number
+			- `disponible` — libre (lo que no está bloqueado en órdenes)
+			  logseq.order-list-type:: number
+			- `equity`
+			  logseq.order-list-type:: number
+			- `actualizado_en`
+			  logseq.order-list-type:: number
 	- Bybit (operar)
 	-
 -
