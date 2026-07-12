@@ -43,12 +43,14 @@
 					- procesando
 					- enviada
 					- caducada
+					- omitida
+					- error
 				- `filled_qty` — cuánto se ha llenado (esto cubre los llenados parciales sin necesidad de un estado aparte)
 				- `avg_price` — precio medio de ejecución
 				- `motivo` — texto nulo, para guardar el porqué de un rechazo o error (oro para depurar)
 				- `confirmacion_expira_en` — marca de tiempo, solo para semiautomáticas en espera
 				- `creada_en`, `actualizada_en`
-			- `posiciones` — espejo de Bybit (lo abierto ahora mismo)**
+			- `posiciones` — espejo de Bybit (lo abierto ahora mismo)*
 			  logseq.order-list-type:: number
 				- `symbol` — único (en modo one-way, una posición por símbolo)
 				  logseq.order-list-type:: number
