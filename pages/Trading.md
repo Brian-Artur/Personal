@@ -8,5 +8,5 @@
 - # Bybit
 	- No se puede trabajar en futuros, ni apalancado. Porque Bybit no cuenta con licencia MiFID 2.
 -
-- # Proyecto
+- # Trading-service
 -
