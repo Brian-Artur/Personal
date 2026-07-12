@@ -7,8 +7,10 @@
 		- Node + Express
 		- MariaDB
 	- Bybit (operar)
-	- ![image.png](../assets/image_1783842207261_0.png)
+	-
 -
 - # V2
-	- S
+	- Análisis - Python
+		- CC
 	-
+- ![image.png](../assets/image_1783842207261_0.png)
