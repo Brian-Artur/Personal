@@ -1,14 +1,14 @@
-# V
-- TradingView
-- CloudFlare Tunnel (IP pública - webhook)
-- Hostinger (dominio)
-- Windows 24/7
-	- React
-	- Node + Express
-	- MariaDB
-	- Análisis - Python
-- Bybit (operar)
-- ![image.png](../assets/image_1783842207261_0.png)
+# V1
+	- TradingView
+	- CloudFlare Tunnel (IP pública - webhook)
+	- Hostinger (dominio)
+	- Windows 24/7
+		- React
+		- Node + Express
+		- MariaDB
+		- Análisis - Python
+	- Bybit (operar)
+	- ![image.png](../assets/image_1783842207261_0.png)
 - ML
 	-
 	- SciKit-Learn
