@@ -15,7 +15,17 @@
 				- `direccion` — opcional, para cruces de línea (arriba/abajo)
 				- `payload` — el JSON crudo tal cual llegó (JSON), para auditoría y depuración
 				- `recibida_en` — marca de tiempo
-			-
+			- `reglas` — los parámetros de cada estrategia
+				- `id` — clave
+				- `nombre` — identificador que liga esta fila con su archivo de código (p. ej. `rsi_reversion`)
+				- `activa` — encendida/apagada (booleano)
+				- `modo` — auto / semiautomatico
+				- `symbol` — sobre qué opera
+				- `qty` — tamaño de la operación
+				- `ventana_validez_seg` — cuán recientes deben ser las condiciones para valer
+				- `confirmacion_expira_seg` — cuánto espera una propuesta semiautomática antes de caducar
+				- `estado_actual` — fuera / en_largo / en_corto
+				- `actualizada_en`
 	- Bybit (operar)
 	-
 -
