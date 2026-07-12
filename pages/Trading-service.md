@@ -16,7 +16,7 @@
 				- `direccion` — opcional, para cruces de línea (arriba/abajo)
 				- `payload` — el JSON crudo tal cual llegó (JSON), para auditoría y depuración
 				- `recibida_en` — marca de tiempo
-			- `reglas` — los parámetros de cada estrategia
+			- `reglas` — los parámetros de cada estrategia. *Cuándo actuar*.
 			  logseq.order-list-type:: number
 				- `id` — clave
 				- `nombre` — identificador que liga esta fila con su archivo de código (p. ej. `rsi_reversion`)
