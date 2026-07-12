@@ -58,7 +58,7 @@
 				  logseq.order-list-type:: number
 				- `actualizada_en`
 				  logseq.order-list-type:: number
-			- `saldo` — **espejo de Bybit** por moneda
+			- `saldo` — **espejo de Bybit** . Cuánto dinero hay de cada moneda.
 			  logseq.order-list-type:: number
 				- `coin` — único (BTC, USDT…)
 				  logseq.order-list-type:: number
