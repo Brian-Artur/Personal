@@ -12,7 +12,7 @@
 - # V2
 	- Análisis - Python
 		- CCXT
-			- Histórico : Bybit, KuCoin
-		-
+			- Histórico : OHLCV ,
+			- Exchanges : Bybit, KuCoin y Binance
 	-
 - ![image.png](../assets/image_1783842207261_0.png)
