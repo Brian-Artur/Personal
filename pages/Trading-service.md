@@ -25,7 +25,7 @@
 		- Unas **características** (features): los números que describen la situación.
 		- Una **etiqueta** (target): lo que quieres predecir.
 			- Coluna de si/no
-	-
+	- > Cuidado con los datos futuros
 - # V5
 	- Definir reglas-estrategias, desde la interfaz
 - ![image.png](../assets/image_1783842207261_0.png)
