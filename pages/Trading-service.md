@@ -1,3 +1,4 @@
+# V
 - TradingView
 - CloudFlare Tunnel (IP pública - webhook)
 - Hostinger (dominio)
@@ -6,7 +7,7 @@
 	- Node + Express
 	- MariaDB
 	- Análisis - Python
-	- Bybit (operar)
+- Bybit (operar)
 - ![image.png](../assets/image_1783842207261_0.png)
 - ML
 	-
