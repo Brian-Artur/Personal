@@ -16,8 +16,8 @@
 				- `direccion` — opcional, para cruces de línea (arriba/abajo)
 				- `payload` — el JSON crudo tal cual llegó (JSON), para auditoría y depuración
 				- `recibida_en` — marca de tiempo
-			- logseq.order-list-type:: number
 			- `reglas` — los parámetros de cada estrategia
+			  logseq.order-list-type:: number
 				- `id` — clave
 				- `nombre` — identificador que liga esta fila con su archivo de código (p. ej. `rsi_reversion`)
 				- `activa` — encendida/apagada (booleano)
@@ -29,6 +29,7 @@
 				- `estado_actual` — fuera / en_largo / en_corto
 				- `actualizada_en`
 			- `ordenes` — el intento de ejecución en Bybit (el corazón)
+			  logseq.order-list-type:: number
 				- `id` — clave
 				- `regla_id` — qué regla la originó (FK a `reglas`)
 				- `order_link_id` — tu identificador de cliente, **ÚNICO** (idempotencia: si reintentas tras un corte, Bybit deduplica)
@@ -42,6 +43,14 @@
 				- `motivo` — texto nulo, para guardar el porqué de un rechazo o error (oro para depurar)
 				- `confirmacion_expira_en` — marca de tiempo, solo para semiautomáticas en espera
 				- `creada_en`, `actualizada_en`
+			- **4. `posiciones` — espejo de Bybit (lo abierto ahora mismo)**
+			  logseq.order-list-type:: number
+			- `symbol` — único (en modo one-way, una posición por símbolo)
+			  logseq.order-list-type:: number
+			- `side` (long/short), `size`, `entry_price`, `unrealized_pnl`
+			  logseq.order-list-type:: number
+			- `actualizada_en`
+			  logseq.order-list-type:: number
 	- Bybit (operar)
 	-
 -
