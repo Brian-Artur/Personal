@@ -20,14 +20,19 @@
 			  logseq.order-list-type:: number
 				- `id` — clave
 				- `nombre` — identificador que liga esta fila con su archivo de código (p. ej. `rsi_reversion`)
-				- `activa` — encendida/apagada (booleano)
-				- `modo` — auto / semiautomatico
-				- `symbol` — sobre qué opera
+				- `activa` —
+				- encendida/apagada (booleano)
+				- `modo` —
+					- auto
+					- semiautomatico
+				- `symbol` — sobre qué moneda opera
 				- `qty` — tamaño de la operación
 				- `ventana_validez_seg` — cuán recientes deben ser las condiciones para valer
 				- `confirmacion_expira_seg` — cuánto espera una propuesta semiautomática antes de caducar
-				- `estado_actual` — Evita
-				- fuera / en_largo / en_corto
+				- `estado_actual` — Evita compras duplicadas
+					- fuera
+					- en_largo
+					- en_corto
 				- `actualizada_en`
 			- `ordenes` — el intento de ejecución en Bybit (el corazón)
 			  logseq.order-list-type:: number
