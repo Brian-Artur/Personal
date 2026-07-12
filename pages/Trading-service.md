@@ -19,10 +19,10 @@
 			- `reglas` — los parámetros de cada estrategia. *Cuándo actuar*.
 			  logseq.order-list-type:: number
 				- `id` — clave
-				- `nombre` — El mismo nombre que tenga el archivo con la lógica en .ts (p. ej. `rsi_reversion`)
+				- `nombre` — El mismo nombre que tenga el archivo con la lógica en .ts (p. ej. *rsi_reversion* -> *rsi_reversion.ts*)
 				- `activa` — Un interruptor por cada regla
-					- encendida
-					- apagada (booleano)
+					- true
+					- false (booleano)
 				- `modo` —
 					- auto
 					- semiautomatico
