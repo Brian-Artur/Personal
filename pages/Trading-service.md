@@ -6,7 +6,7 @@
 	- Node + Express
 	- MariaDB
 	- Análisis - Python
-	-
+	- Bybit (operar)
 - ![image.png](../assets/image_1783842207261_0.png)
 - ML
 	-
