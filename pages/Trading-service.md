@@ -21,5 +21,5 @@
 	- React para ver los históricos de Pandas
 -
 - # V4
-	- ML :
+	- ML : SciKit-Learn
 - ![image.png](../assets/image_1783842207261_0.png)
