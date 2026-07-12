@@ -1,2 +1,0 @@
-- Dentro de esta página
-- Hay más contenido.
