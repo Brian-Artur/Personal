@@ -15,7 +15,7 @@
 				- `direccion` — opcional, para cruces de línea (arriba/abajo)
 				- `payload` — el JSON crudo tal cual llegó (JSON), para auditoría y depuración
 				- `recibida_en` — marca de tiempo
-				-
+			-
 	- Bybit (operar)
 	-
 -
