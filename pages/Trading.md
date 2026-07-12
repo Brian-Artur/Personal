@@ -6,4 +6,5 @@
 	- [sixlots](https://www.instagram.com/sixlots/)
 -
 - # Bybit
-	- No se puede trabajar en futuros, ni apalancado. Porque Bybit no cuenta con
+	- No se puede trabajar en futuros, ni apalancado. Porque Bybit no cuenta con licencia MiFID 2.
+	-
