@@ -7,7 +7,15 @@
 		- Node + Express
 		- MariaDB
 			- `alertas` : lo que llega de TradingView (registro histórico)
-			-
+			  Es un log de solo-añadir
+				- `id` — clave, autoincremental
+				- `tipo` — qué es (rsi, precio, cruce_linea, dominancia…)
+				- `valor` — el número (62.5, 64000…)
+				- `symbol` — la moneda (BTCUSDT)
+				- `direccion` — opcional, para cruces de línea (arriba/abajo)
+				- `payload` — el JSON crudo tal cual llegó (JSON), para auditoría y depuración
+				- `recibida_en` — marca de tiempo
+				-
 	- Bybit (operar)
 	-
 -
