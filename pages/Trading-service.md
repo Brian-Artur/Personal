@@ -16,5 +16,6 @@
 			- Exchanges : Bybit, KuCoin y Binance
 		- Pasar datos a Pandas
 			- Transformar datos para incormporar a tabla de MariaDB
-		-
+-
+-
 - ![image.png](../assets/image_1783842207261_0.png)
