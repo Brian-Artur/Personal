@@ -3,7 +3,10 @@
 - Hostinger (dominio)
 - Windows 24/7
 	- React
-	- N
+	- Node + Express
+	- MariaDB
+	- Análisis - Python
+	-
 - ![image.png](../assets/image_1783842207261_0.png)
 - ML
 	-
