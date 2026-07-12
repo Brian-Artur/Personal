@@ -24,7 +24,7 @@
 					- true
 					- false (booleano)
 				- `modo` —
-					- auto
+					- automatico
 					- semiautomatico
 				- `symbol` — sobre qué moneda opera
 				- `qty` — tamaño de la operación
