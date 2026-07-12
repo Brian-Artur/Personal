@@ -1,6 +1,6 @@
 - TradingView
 - Cloud
--
+- ![image.png](../assets/image_1783842207261_0.png)
 - ML
 	-
 	- SciKit-Learn
