@@ -43,14 +43,14 @@
 				- `motivo` — texto nulo, para guardar el porqué de un rechazo o error (oro para depurar)
 				- `confirmacion_expira_en` — marca de tiempo, solo para semiautomáticas en espera
 				- `creada_en`, `actualizada_en`
-			- **4. `posiciones` — espejo de Bybit (lo abierto ahora mismo)**
+			- `posiciones` — espejo de Bybit (lo abierto ahora mismo)**
 			  logseq.order-list-type:: number
-			- `symbol` — único (en modo one-way, una posición por símbolo)
-			  logseq.order-list-type:: number
-			- `side` (long/short), `size`, `entry_price`, `unrealized_pnl`
-			  logseq.order-list-type:: number
-			- `actualizada_en`
-			  logseq.order-list-type:: number
+				- `symbol` — único (en modo one-way, una posición por símbolo)
+				  logseq.order-list-type:: number
+				- `side` (long/short), `size`, `entry_price`, `unrealized_pnl`
+				  logseq.order-list-type:: number
+				- `actualizada_en`
+				  logseq.order-list-type:: number
 	- Bybit (operar)
 	-
 -
