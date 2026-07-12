@@ -24,5 +24,7 @@
 	- ML : SciKit-Learn
 		- unas **características** (features): los números que describen la situación.
 		- una **etiqueta** (target): lo que quieres predecir.
-	-
+-
+- # V5
+	- Definir reglas-estrategias, desde la interfaz
 - ![image.png](../assets/image_1783842207261_0.png)
