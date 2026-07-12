@@ -1,5 +1,6 @@
 - TradingView
-- Cloud
+- CloudFlare Tunnel (Iwebhook)
+- Hostinger (dominio)
 - ![image.png](../assets/image_1783842207261_0.png)
 - ML
 	-
