@@ -11,6 +11,8 @@
 -
 - # V2
 	- Análisis - Python
-		- CC
+		- CCXT
+			- Histórico : Bybit, KuCoin
+		-
 	-
 - ![image.png](../assets/image_1783842207261_0.png)
