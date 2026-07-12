@@ -10,6 +10,7 @@
 			- **Modificar**
 			- **Cancelar**
 - # Estrategia de ramas (git)
+  id:: 6a4b918d-8f38-403e-a320-c84e36bc592f
 	- ![Untitled-2026-06-13-1542.svg](../assets/Untitled-2026-06-13-1542_1783337781635_0.svg){:height 142, :width 576}
 -
 - /ren
