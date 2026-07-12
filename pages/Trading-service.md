@@ -12,7 +12,7 @@
 - # V2
 	- Análisis - Python
 		- CCXT
-			- Histórico : OHLCV ,
+			- Histórico : OHLCV , varias temporalidades
 			- Exchanges : Bybit, KuCoin y Binance
-	-
+		- Pasar datos a Pandas
 - ![image.png](../assets/image_1783842207261_0.png)
