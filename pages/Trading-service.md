@@ -6,6 +6,8 @@
 		- React
 		- Node + Express
 		- MariaDB
+			- `alertas` : lo que llega de TradingView (registro histórico)
+			-
 	- Bybit (operar)
 	-
 -
