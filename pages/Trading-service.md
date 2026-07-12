@@ -1,5 +1,5 @@
 - TradingView
-- CloudFlare Tunnel (Iwebhook)
+- CloudFlare Tunnel (IP pública - webhook)
 - Hostinger (dominio)
 - ![image.png](../assets/image_1783842207261_0.png)
 - ML
