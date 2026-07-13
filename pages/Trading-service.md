@@ -5,7 +5,7 @@
 	- Windows 24/7
 		- React
 		- Node + Express
-		- {{embed [[Trading-service/MariaDB]]}}
+		- [[Trading-service/MariaDB]]
 	- Bybit (operar)
 	-
 -
