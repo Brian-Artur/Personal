@@ -5,7 +5,7 @@
 	- Windows 24/7
 		- React
 		- Node + Express
-		- MariaDB
+		- [MariaDB]
 			- `alertas` : lo que llega de TradingView (registro histórico)
 			  logseq.order-list-type:: number
 			  Es un log de solo-añadir. *Un registro de los que está pasando fuera*
