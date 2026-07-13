@@ -5,7 +5,9 @@
 			- Distanciados a 20 horas como mínimo y 48 horas como máximo.
 		- La 1ª hora del lunes puede haber mucho volumen.
 	- ## Temporalidad
-		- En temporalidad < H1 se
+		- En temporalidad < H1 se toman líneas horizontales
+			- ![image.png](../assets/image_1783979509602_0.png)
+			-
 	-
 - # Perfiles
 	- [alextrades.nq](https://www.instagram.com/alextrades.nq/)
