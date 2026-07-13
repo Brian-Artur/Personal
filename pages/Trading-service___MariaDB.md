@@ -24,9 +24,9 @@
 	- `ventana_validez_seg` — cuán recientes deben ser las condiciones para valer. *900 = 15min*
 	- `confirmacion_expira_seg` — Si es semiautomática y te propone algo, ¿cuánto espera tu respuesta antes de rendirse? Si vale *300 (5 minutos)* y no confirmas en ese rato, *la propuesta se cae sola*.
 	- `estado_actual` — Evita compras duplicadas
-		- fuera
-		- en_largo
-		- en_corto
+		- fuera (sin posición)
+		- en_largo (compró, espera vender)
+		- en_corto (vendió, espera comprar)
 	- `actualizada_en`
 - `ordenes` — el intento de ejecución en Bybit (el corazón)
   logseq.order-list-type:: number
