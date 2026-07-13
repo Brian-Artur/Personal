@@ -9,7 +9,7 @@
 	- `direccion` — opcional, para cruces de línea (arriba/abajo)
 	- `payload` — el JSON crudo tal cual llegó (JSON), para auditoría y depuración
 	- `recibida_en` — marca de tiempo
-- `reglas` — los parámetros de cada estrategia. *Cuándo actuar*. Los ajustes de cada op
+- `reglas` — los parámetros de cada estrategia. *Cuándo actuar*. Los ajustes que definen las necesidades de cada operación distinta.
   logseq.order-list-type:: number
 	- `id` — clave
 	- `nombre` — El mismo nombre que tenga el archivo con la lógica en .ts (p. ej. *rsi_reversion* -> *rsi_reversion.ts*)
