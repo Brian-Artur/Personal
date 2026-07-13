@@ -106,11 +106,11 @@
 				- `POST /citas/:id/cancelar` → transición de estado
 			- Reglas de transición defendidas
 				- Solo se mueven/cancelan citas `reservada`; si no → 409
-	- Frontend (React + Vite + TypeScript)
+	- ## Frontend (React + Vite + TypeScript)
 		- Calendario semanal en CSS Grid, a mano (sin librería de calendario)
 			- Malla fina de 5 min por debajo; líneas visibles solo en horas en punto
 			- Cada cita se posiciona por columna (día) y filas (inicio→fin)
-			- La altura del bloque **es** la duración
+			- La altura del bloque es la duración
 		- Estados con color: reservada azul, completada verde, cancelada gris tachada
 		- Fechas
 			- BD/API en UTC; el navegador convierte a hora local
