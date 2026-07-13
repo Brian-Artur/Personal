@@ -41,11 +41,11 @@
 	- `estado` — el estado de la máquina
 		- Un encargo automático nace *pendiente*
 		- Uno semiautimático nace en *esperando_confirmacion* y  pasa a *pendiente* cuando confirmas.
-		- Cuando el programa todavía no hizo la pe
+		- Cuando el programa todavía no hizo la petición a Bybit *procesando*.
 		- Cuando se está enviando es *enviada*.
 		- Si Bybit lo aceptó *ejecutada*.
-		- caducada
-		- omitida
+		- *caducada*
+		- omitida*
 		- error
 	- `filled_qty` — cuánto se ha llenado (esto cubre los llenados parciales sin necesidad de un estado aparte)
 	- `avg_price` — precio medio de ejecución
