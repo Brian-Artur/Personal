@@ -24,7 +24,7 @@
 	- React para ver los históricos de Pandas
 -
 - # V4
-	- ML : SciKit-Learn
+	- ML : [SciKit-Learn](https://scikit-learn.org/stable/#)
 		- Unas **características** (features): los números que describen la situación.
 		- Una **etiqueta** (target): lo que quieres predecir.
 			- Coluna de si/no
