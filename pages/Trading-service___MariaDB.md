@@ -21,7 +21,7 @@
 		- semiautomatico : espera tu visto bueno
 	- `symbol` — sobre qué moneda opera
 	- `qty` — tamaño de la operación (0.001, ...)
-	- `ventana_validez_seg` — cuán recientes deben ser las condiciones para valer
+	- `ventana_validez_seg` — cuán recientes deben ser las condiciones para valer. *900 = 15min*
 	- `confirmacion_expira_seg` — cuánto espera una propuesta semiautomática antes de caducar
 	- `estado_actual` — Evita compras duplicadas
 		- fuera
