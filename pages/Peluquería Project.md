@@ -60,7 +60,7 @@
 					- Colocar un `src/.env` con las credenciales para que no lo pille GitHub.
 					- Instalar dependencia de producción: dotenv
 			- Pasar del */health* a un servicio con rutas.
-- **v1 — Construido hasta ahora**
+- # **v1 — Construido hasta ahora**
 - Infraestructura
 	- MariaDB 12 en Docker
 		- Puerto atado a loopback (`127.0.0.1:3306`) → solo accesible desde la propia máquina
@@ -127,6 +127,8 @@
 		- Texto desbordado en citas de 30 min
 		- Cancelada se ve medio-azul (CSS)
 		- Definir tema de color
+-
+-
 - **v2 — Aparcado (concebido como un solo bloque futuro)**
 - Regla madre
 	- Casi toda la complejidad nace de dos recursos que se agotan: **empleados** y **recursos físicos**
