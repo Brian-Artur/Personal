@@ -1,5 +1,6 @@
 # Curiosidades
-	- Domingo : Día calmado
+	- Sábados y Domingos : Días calmados y predecibles.
+	-
 	-
 - # Perfiles
 	- [alextrades.nq](https://www.instagram.com/alextrades.nq/)
