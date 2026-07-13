@@ -61,66 +61,66 @@
 					- Instalar dependencia de producción: dotenv
 			- Pasar del */health* a un servicio con rutas.
 - # **v1 — Construido hasta ahora**
-- Infraestructura
-	- MariaDB 12 en Docker
-		- Puerto atado a loopback (`127.0.0.1:3306`) → solo accesible desde la propia máquina
-		- Bypass de UFW por Docker resuelto vía binding en el compose, no vía firewall
-	- Esquema y semilla versionados en `infra/mariadb/initdb/`
-		- Se ejecutan solos al arrancar con volumen vacío
-		- Reproducible: mismo `docker compose up` = misma BD en cualquier máquina
-		- Prefijos numéricos (`01-`, `02-`) fuerzan el orden de ejecución
-	- Credenciales fuera del repo
-		- `db.env` gitignored → se recrea a mano en cada entorno
-		- Usuario de app (`peluqueria_app`) separado de root, privilegio mínimo
-		- `root` y usuario de app nacen automáticamente en el primer arranque
-- Modelo de datos (tres tablas)
-	- `cliente` (id, nombre, telefono)
-		- Teléfono opcional (permite NULL) y como texto, no número
-	- `servicio` (id, nombre, duracion_min, precio)
-		- Es catálogo; `precio` aún no se usa pero está preparado
-	- `cita` (id, cliente_id, servicio_id, inicio, fin, estado)
-		- FK a cliente y servicio → integridad referencial a nivel de motor
-		- `estado` ENUM (reservada/cancelada/completada)
-			- Soft-delete: cancelar no borra, cambia estado
-			- Máquina de estados
-		- `inicio` + `fin` congelados en la cita (patrón snapshot)
-			- La cita es dueña de su duración
-			- Cambiar el catálogo no altera citas ya creadas
-- Backend (Node + Express + TypeScript)
-	- Arquitectura por capas
-		- `repository` → solo SQL, consultas parametrizadas (anti-inyección)
-		- `service` → reglas de negocio, sin saber nada de HTTP
-		- `router` → valida forma con Zod, llama al service, traduce a HTTP
-	- Manejo de errores
-		- Middleware central (el último en montarse)
-		- Errores tipados: `ErrorNoEncontrado` → 404, `ErrorConflicto` → 409
-	- `/health` verifica de verdad la conexión a la BD
-	- Endpoints
-		- Lectura
-			- `GET /servicios`
-			- `GET /clientes`
-			- `GET /citas` (con JOIN que resuelve nombres de cliente y servicio)
-		- Escritura
-			- `POST /citas` → crear; el backend calcula el `fin`
-			- `PATCH /citas/:id` → mover; recalcula `fin`
-			- `POST /citas/:id/cancelar` → transición de estado
-		- Reglas de transición defendidas
-			- Solo se mueven/cancelan citas `reservada`; si no → 409
-- Frontend (React + Vite + TypeScript)
-	- Calendario semanal en CSS Grid, a mano (sin librería de calendario)
-		- Malla fina de 5 min por debajo; líneas visibles solo en horas en punto
-		- Cada cita se posiciona por columna (día) y filas (inicio→fin)
-		- La altura del bloque **es** la duración
-	- Estados con color: reservada azul, completada verde, cancelada gris tachada
-	- Fechas
-		- BD/API en UTC; el navegador convierte a hora local
-		- `Date` nativo (sin librería de fechas todavía)
-	- Componentes troceados
-		- `Calendario`, `CabeceraDias`, `Rejilla`, `TarjetaCita`
-		- Más utilidades: `posicion.ts`, `constantes.ts`, `tipos.ts`
-	- Proxy de Vite reenvía `/api` al backend
-		- Evita CORS en desarrollo
-		- En producción lo resolverá Nginx
+	- ## Infraestructura
+		- MariaDB 12 en Docker
+			- Puerto atado a loopback (`127.0.0.1:3306`) → solo accesible desde la propia máquina
+			- Bypass de UFW por Docker resuelto vía binding en el compose, no vía firewall
+		- Esquema y semilla versionados en `infra/mariadb/initdb/`
+			- Se ejecutan solos al arrancar con volumen vacío
+			- Reproducible: mismo `docker compose up` = misma BD en cualquier máquina
+			- Prefijos numéricos (`01-`, `02-`) fuerzan el orden de ejecución
+		- Credenciales fuera del repo
+			- `db.env` gitignored → se recrea a mano en cada entorno
+			- Usuario de app (`peluqueria_app`) separado de root, privilegio mínimo
+			- `root` y usuario de app nacen automáticamente en el primer arranque
+		- Modelo de datos (tres tablas)
+			- `cliente` (id, nombre, telefono)
+				- Teléfono opcional (permite NULL) y como texto, no número
+			- `servicio` (id, nombre, duracion_min, precio)
+				- Es catálogo; `precio` aún no se usa pero está preparado
+			- `cita` (id, cliente_id, servicio_id, inicio, fin, estado)
+				- FK a cliente y servicio → integridad referencial a nivel de motor
+				- `estado` ENUM (reservada/cancelada/completada)
+					- Soft-delete: cancelar no borra, cambia estado
+					- Máquina de estados
+				- `inicio` + `fin` congelados en la cita (patrón snapshot)
+					- La cita es dueña de su duración
+					- Cambiar el catálogo no altera citas ya creadas
+	- ## Backend (Node + Express + TypeScript)
+		- Arquitectura por capas
+			- `repository` → solo SQL, consultas parametrizadas (anti-inyección)
+			- `service` → reglas de negocio, sin saber nada de HTTP
+			- `router` → valida forma con Zod, llama al service, traduce a HTTP
+		- Manejo de errores
+			- Middleware central (el último en montarse)
+			- Errores tipados: `ErrorNoEncontrado` → 404, `ErrorConflicto` → 409
+		- `/health` verifica de verdad la conexión a la BD
+		- Endpoints
+			- Lectura
+				- `GET /servicios`
+				- `GET /clientes`
+				- `GET /citas` (con JOIN que resuelve nombres de cliente y servicio)
+			- Escritura
+				- `POST /citas` → crear; el backend calcula el `fin`
+				- `PATCH /citas/:id` → mover; recalcula `fin`
+				- `POST /citas/:id/cancelar` → transición de estado
+			- Reglas de transición defendidas
+				- Solo se mueven/cancelan citas `reservada`; si no → 409
+	- Frontend (React + Vite + TypeScript)
+		- Calendario semanal en CSS Grid, a mano (sin librería de calendario)
+			- Malla fina de 5 min por debajo; líneas visibles solo en horas en punto
+			- Cada cita se posiciona por columna (día) y filas (inicio→fin)
+			- La altura del bloque **es** la duración
+		- Estados con color: reservada azul, completada verde, cancelada gris tachada
+		- Fechas
+			- BD/API en UTC; el navegador convierte a hora local
+			- `Date` nativo (sin librería de fechas todavía)
+		- Componentes troceados
+			- `Calendario`, `CabeceraDias`, `Rejilla`, `TarjetaCita`
+			- Más utilidades: `posicion.ts`, `constantes.ts`, `tipos.ts`
+		- Proxy de Vite reenvía `/api` al backend
+			- Evita CORS en desarrollo
+			- En producción lo resolverá Nginx
 - Pendiente para cerrar v1
 	- Panel único: crear / ver / mover / cancelar por click
 	- Pulido estético
