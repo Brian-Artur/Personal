@@ -423,4 +423,4 @@
  :feature/enable-timetracking? true
  :editor/logical-outdenting? true
  :feature/enable-flashcards? false
- :feature/enable-whiteboards? true}
+ :feature/enable-whiteboards? false}
