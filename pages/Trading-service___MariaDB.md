@@ -9,7 +9,7 @@
 	- `direccion` — opcional, para cruces de línea (arriba/abajo)
 	- `payload` — el JSON crudo tal cual llegó (JSON), para auditoría y depuración
 	- `recibida_en` — marca de tiempo
-- `reglas` — los parámetros de cada estrategia. *Cuándo actuar*.
+- `reglas` — los parámetros de cada estrategia. *Cuándo actuar*. Los ajustes de cada op
   logseq.order-list-type:: number
 	- `id` — clave
 	- `nombre` — El mismo nombre que tenga el archivo con la lógica en .ts (p. ej. *rsi_reversion* -> *rsi_reversion.ts*)
@@ -17,8 +17,8 @@
 		- true
 		- false (booleano)
 	- `modo` — Ejecuta solo o pide permiso
-		- auto : dispara
-		- semiautomatico
+		- auto : dispara sola
+		- semiautomatico : espera tu visto bueno
 	- `symbol` — sobre qué moneda opera
 	- `qty` — tamaño de la operación
 	- `ventana_validez_seg` — cuán recientes deben ser las condiciones para valer
