@@ -1,5 +1,6 @@
 # Curiosidades
-	- Domingo : D
+	- Domingo : Día calmado
+	-
 - # Perfiles
 	- [alextrades.nq](https://www.instagram.com/alextrades.nq/)
 	- [smc_tradezone__](https://www.instagram.com/smc_tradezone__/)
