@@ -53,6 +53,7 @@
 				- Definir archivos básicos para el */health*
 				  logseq.order-list-type:: number
 					- **`src/db.ts`** — el pool de conexión a MariaDB:
+					  id:: 6a4ce089-e55d-4a05-92ef-628de05915c7
 					- **`src/routes/health.ts`** — la ruta honesta:
 					- **`src/index.ts`** — arranca el servidor
 					- ![image.png](../assets/image_1783437370818_0.png)
