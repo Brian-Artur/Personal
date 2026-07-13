@@ -45,8 +45,9 @@
 		- Cuando se está enviando es *enviada*.
 		- Si Bybit lo aceptó *ejecutada*.
 		- *caducada*
-		- omitida*
-		- error
+		- *rechazada*
+		- *omitida*
+		- *error*
 	- `filled_qty` — cuánto se ha llenado (esto cubre los llenados parciales sin necesidad de un estado aparte)
 	- `avg_price` — precio medio de ejecución
 	- `motivo` — texto nulo, para guardar el porqué de un rechazo o error (oro para depurar)
