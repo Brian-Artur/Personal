@@ -53,7 +53,7 @@
 	- `motivo` — texto nulo, para guardar el porqué de un rechazo o error (oro para depurar)
 	- `confirmacion_expira_en` — marca de tiempo, solo para semiautomáticas en espera
 	- `creada_en` - Cuando nació
-	- `actualizada_en`
+	- `actualizada_en` - Cuándo cambió por última vez
 - `posiciones` — **espejo de Bybit** *lo abierto ahora mismo*
   logseq.order-list-type:: number
   collapsed:: true
