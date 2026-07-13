@@ -118,7 +118,7 @@
 		- Proxy de Vite reenvía `/api` al backend
 			- Evita CORS en desarrollo
 			- En producción lo resolverá Nginx
-		-
+		- ![image.png](../assets/image_1783960378557_0.png)
 - Pendiente para cerrar v1
 	- Panel único: crear / ver / mover / cancelar por click
 	- Pulido estético
