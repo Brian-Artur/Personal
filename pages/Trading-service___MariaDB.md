@@ -48,7 +48,7 @@
 		- *rechazada*
 		- *omitida*
 		- *error*
-	- `filled_qty` — cuánto se ha llenado (esto cubre los llenados parciales sin necesidad de un estado aparte)
+	- `filled_qty` — cuánto se ha llenado. Porque a veces no hay  (esto cubre los llenados parciales sin necesidad de un estado aparte)
 	- `avg_price` — precio medio de ejecución
 	- `motivo` — texto nulo, para guardar el porqué de un rechazo o error (oro para depurar)
 	- `confirmacion_expira_en` — marca de tiempo, solo para semiautomáticas en espera
