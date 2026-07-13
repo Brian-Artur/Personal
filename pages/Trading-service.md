@@ -2,6 +2,7 @@
 	- TradingView
 	- CloudFlare Tunnel (IP pública - webhook)
 	- Hostinger (dominio)
+		-
 	- Windows 24/7
 		- React
 		- Node + Express
