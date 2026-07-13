@@ -1,5 +1,6 @@
 - `alertas` : lo que llega de TradingView (registro histórico)
   logseq.order-list-type:: number
+  collapsed:: true
   Es un log de solo-añadir. *Un registro de los que está pasando fuera*
 	- `id` — clave, autoincremental
 	- `tipo` — qué es (rsi, precio, cruce_linea, dominancia…)
@@ -10,6 +11,7 @@
 	- `recibida_en` — marca de tiempo
 - `reglas` — los parámetros de cada estrategia. *Cuándo actuar*.
   logseq.order-list-type:: number
+  collapsed:: true
 	- `id` — clave
 	- `nombre` — El mismo nombre que tenga el archivo con la lógica en .ts (p. ej. *rsi_reversion* -> *rsi_reversion.ts*)
 	- `activa` — Un interruptor por cada regla
@@ -29,6 +31,7 @@
 	- `actualizada_en`
 - `ordenes` — el intento de ejecución en Bybit (el corazón)
   logseq.order-list-type:: number
+  collapsed:: true
 	- `id` — clave
 	- `regla_id` — qué regla la originó (FK a `reglas`)
 	- `order_link_id` — tu identificador de cliente, **ÚNICO** (idempotencia: si reintentas tras un corte, Bybit deduplica)
@@ -51,6 +54,7 @@
 	- `creada_en`, `actualizada_en`
 - `posiciones` — **espejo de Bybit** *lo abierto ahora mismo*
   logseq.order-list-type:: number
+  collapsed:: true
 	- `symbol` — único (en modo one-way, una posición por símbolo)
 	  logseq.order-list-type:: number
 	- `side` (long/short), `size`, `entry_price`, `unrealized_pnl`
@@ -59,6 +63,7 @@
 	  logseq.order-list-type:: number
 - `saldo` — **espejo de Bybit** . Cuánto dinero hay de cada moneda.
   logseq.order-list-type:: number
+  collapsed:: true
 	- `coin` — único (BTC, USDT…)
 	  logseq.order-list-type:: number
 	- `balance` — total
