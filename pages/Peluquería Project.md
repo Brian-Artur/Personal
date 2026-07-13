@@ -115,12 +115,10 @@
 		- Fechas
 			- BD/API en UTC; el navegador convierte a hora local
 			- `Date` nativo (sin librería de fechas todavía)
-		- Componentes troceados
-			- `Calendario`, `CabeceraDias`, `Rejilla`, `TarjetaCita`
-			- Más utilidades: `posicion.ts`, `constantes.ts`, `tipos.ts`
 		- Proxy de Vite reenvía `/api` al backend
 			- Evita CORS en desarrollo
 			- En producción lo resolverá Nginx
+		-
 - Pendiente para cerrar v1
 	- Panel único: crear / ver / mover / cancelar por click
 	- Pulido estético
