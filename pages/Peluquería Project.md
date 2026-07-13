@@ -92,6 +92,7 @@ collapsed:: true
 					- La cita es dueña de su duración
 					- Cambiar el catálogo no altera citas ya creadas
 	- ## Backend (Node + Express + TypeScript)
+	  collapsed:: true
 		- Arquitectura por capas
 			- `repository` → solo SQL, consultas parametrizadas (anti-inyección)
 			- `service` → reglas de negocio, sin saber nada de HTTP
@@ -124,12 +125,12 @@ collapsed:: true
 			- Evita CORS en desarrollo
 			- En producción lo resolverá Nginx
 		- ![image.png](../assets/image_1783960378557_0.png)
-- Pendiente para cerrar v1
-	- Panel único: crear / ver / mover / cancelar por click
-	- Pulido estético
-		- Texto desbordado en citas de 30 min
-		- Cancelada se ve medio-azul (CSS)
-		- Definir tema de color
+	- ## Pendiente de cerrar
+		- Panel único: **crear / ver / mover / cancelar por click
+		- Pulido estético
+			- Texto desbordado en citas de 30 min
+			- Cancelada se ve medio-azul (CSS)
+			- Definir tema de color
 -
 -
 - **v2 — Aparcado (concebido como un solo bloque futuro)**
