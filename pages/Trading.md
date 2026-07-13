@@ -1,6 +1,7 @@
 # Curiosidades
 	- Sábados y Domingos : Días calmados y predecibles.
 	- Por la semana suele haber entre 3 y 4 momentos intensos.
+		- Distanciados a 20 horas como mínimo y
 	-
 - # Perfiles
 	- [alextrades.nq](https://www.instagram.com/alextrades.nq/)
