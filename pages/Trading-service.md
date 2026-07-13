@@ -6,6 +6,7 @@
 		- React
 		- Node + Express
 		- [[Trading-service/MariaDB]]
+		-
 	- Bybit (operar)
 	-
 -
