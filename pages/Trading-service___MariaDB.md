@@ -41,7 +41,8 @@
 	- `estado` — el estado de la máquina
 		- Un encargo automático nace *pendiente*
 		- Uno semiautimático nace en *esperando_confirmacion* y  pasa a *pendiente* cuando confirmas.
-		- Cuando se está enviando es *procesando*.
+		- Cuando el programa todavía no hizo la pe
+		- Cuando se está enviando es *enviada*.
 		- Si Bybit lo aceptó *ejecutada*.
 		- caducada
 		- omitida
