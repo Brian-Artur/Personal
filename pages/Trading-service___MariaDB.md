@@ -32,6 +32,7 @@
   logseq.order-list-type:: number
 	- `id` — clave
 	- `regla_id` — qué regla la originó (FK a `reglas`)
+		- Permite, al ejecutarse, actualizar el
 	- `order_link_id` — tu identificador de cliente, **ÚNICO** (idempotencia: si reintentas tras un corte, Bybit deduplica)
 	- `bybit_order_id` — el id que devuelve Bybit (nulo hasta que responde)
 	- `symbol`, `side` (buy/sell), `tipo_orden` (market/limit)
