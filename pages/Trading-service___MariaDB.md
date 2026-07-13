@@ -34,7 +34,7 @@
 	- `regla_id` — qué regla la originó (FK a `reglas`)
 		- Permite, al ejecutarse, actualizar el `estado_actual` de esa regla.
 	- `order_link_id` — identificador **ÚNICO** que impide que se haga dobles operaciones en Bybit, tras un apagón, corte, etc.
-	- `bybit_order_id` — el id que devuelve Bybit (nulo hasta que responde)
+	- `bybit_order_id` — el id que le pone Bybit. Es nulo hasta que responde.
 	- `symbol`, `side` (buy/sell), `tipo_orden` (market/limit)
 	- `qty` — cantidad
 	- `precio` — A qué precio? Nulo en market, obligatorio si es limit (solo compras a ese precio o mejor)
