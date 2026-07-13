@@ -39,8 +39,8 @@
 	- `qty` — cantidad
 	- `precio` — A qué precio? Nulo en market, obligatorio si es limit (solo compras a ese precio o mejor)
 	- `estado` — el estado de la máquina
-		- Un encargo pendiente
-		- esperando_confirmacion
+		- Un encargo automático nace *pendiente*
+		- Uno semiautimático nace en *esperando_confirmacion* y  pasa a *pendiente*.
 		- procesando
 		- enviada
 		- caducada
