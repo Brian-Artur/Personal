@@ -18,7 +18,6 @@ collapsed:: true
 	-
 -
 - # Agenda - Calendario
-  collapsed:: true
 	- ## 1. **Esqueleto**: monorepo
 		- frontent : React
 		- backend : Node + Express
@@ -65,6 +64,7 @@ collapsed:: true
 			- Pasar del */health* a un servicio con rutas.
 -
 - # **v1 — Construido hasta ahora**
+  collapsed:: true
 	- ## Infraestructura
 	  collapsed:: true
 		- MariaDB 12 en Docker
@@ -126,7 +126,7 @@ collapsed:: true
 			- En producción lo resolverá Nginx
 		- ![image.png](../assets/image_1783960378557_0.png)
 	- ## Pendiente de cerrar
-		- Panel único: **crear / ver / mover / cancelar por click
+		- Panel único: **crear / ver / mover / cancelar** por click
 		- Pulido estético
 			- Texto desbordado en citas de 30 min
 			- Cancelada se ve medio-azul (CSS)
