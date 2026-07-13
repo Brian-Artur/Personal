@@ -42,7 +42,7 @@
 		- Un encargo automático nace *pendiente*
 		- Uno semiautimático nace en *esperando_confirmacion* y  pasa a *pendiente* cuando confirmas.
 		- Cuando se está enviando es *procesando*.
-		- Si Bybit lo aceptenviada
+		- Si Bybit lo aceptó *ejecutada*.
 		- caducada
 		- omitida
 		- error
