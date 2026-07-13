@@ -46,11 +46,11 @@
 
  ;; Display all lines of a block when referencing ((block)).
  ;; Default value: false
- :ui/show-full-blocks? false
+ :ui/show-full-blocks? true
 
  ;; Automatically expand block references when zooming in.
  ;; Default value: true
- :ui/auto-expand-block-refs? true
+ :ui/auto-expand-block-refs? false
 
  ;; Enable Block timestamps.
  ;; Default value: false
@@ -299,7 +299,7 @@
  ;;  :charge-range    600}   ; Default value: 600
 
  ;; Favorites to list on the left sidebar
- :favorites []
+ :favorites ["Trading" "Peluquería Project" "Develop"]
 
  ;; Set flashcards interval.
  ;; Expected value:
@@ -420,4 +420,6 @@
  ;;      ;use Percent-encoding for other invalid characters
  :file/name-format :triple-lowbar
  :journal/page-title-format "do MMM yyyy"
- :feature/enable-timetracking? true}
+ :feature/enable-timetracking? true
+ :editor/logical-outdenting? true
+ :feature/enable-flashcards? false}
