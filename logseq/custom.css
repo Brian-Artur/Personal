@@ -138,3 +138,9 @@ pre code {
 .block-children {
   border-left-color: #3c3c40 !important;
 }
+
+/* Cita más compacta en vertical */
+.block-content blockquote {
+  padding-top: 2px !important;
+  padding-bottom: 2px !important;
+}
