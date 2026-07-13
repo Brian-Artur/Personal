@@ -1,7 +1,7 @@
 # V1
 	- TradingView
 	- CloudFlare Tunnel (IP pública - webhook)
-	- Hostinger (dominio)
+	- [Hostinger](https://hpanel.hostinger.com/websites) (dominio)
 		-
 	- Windows 24/7
 		- React
