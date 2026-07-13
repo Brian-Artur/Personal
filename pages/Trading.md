@@ -11,7 +11,8 @@
 			-
 		- En temporalidad > H1 se toman líneas diagonales
 		- Para fechas concretas se traza una vertical sobre el punto donde se cortan 2 diagonales.
-		- Para históri
+		- Para histórico, en activos y acciones, es suficiente con el semanal.
+		- Para
 	-
 - # Perfiles
 	- [alextrades.nq](https://www.instagram.com/alextrades.nq/)
