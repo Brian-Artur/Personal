@@ -1,6 +1,6 @@
 # Curiosidades
 	- Sábados y Domingos : Días calmados y predecibles.
-	-
+	- Por la semana suele haber entre 3 y 4 momentos intensos.
 	-
 - # Perfiles
 	- [alextrades.nq](https://www.instagram.com/alextrades.nq/)
