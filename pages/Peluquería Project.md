@@ -1,4 +1,5 @@
 # Modelo de negocio
+collapsed:: true
 	- ## Palabras clave
 		- 3 Sustantivos
 			- **Cliente** *( id, nombre, telefono )*
@@ -9,13 +10,15 @@
 			- **Crear**
 			- **Modificar**
 			- **Cancelar**
+-
 - # Estrategia de ramas (git)
   id:: 6a4b918d-8f38-403e-a320-c84e36bc592f
+  collapsed:: true
 	- ![Untitled-2026-06-13-1542.svg](../assets/Untitled-2026-06-13-1542_1783337781635_0.svg){:height 142, :width 576}
 	-
 -
-- /ren
 - # Agenda - Calendario
+  collapsed:: true
 	- ## 1. **Esqueleto**: monorepo
 		- frontent : React
 		- backend : Node + Express
@@ -60,8 +63,10 @@
 					- Colocar un `src/.env` con las credenciales para que no lo pille GitHub.
 					- Instalar dependencia de producción: dotenv
 			- Pasar del */health* a un servicio con rutas.
+-
 - # **v1 — Construido hasta ahora**
 	- ## Infraestructura
+	  collapsed:: true
 		- MariaDB 12 en Docker
 			- Puerto atado a loopback (`127.0.0.1:3306`) → solo accesible desde la propia máquina
 			- Bypass de UFW por Docker resuelto vía binding en el compose, no vía firewall
