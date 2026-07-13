@@ -37,9 +37,9 @@
 	- `bybit_order_id` — el id que devuelve Bybit (nulo hasta que responde)
 	- `symbol`, `side` (buy/sell), `tipo_orden` (market/limit)
 	- `qty` — cantidad
-	- `precio` — A qué precio? Nulo en market, obligatorio si es limit
+	- `precio` — A qué precio? Nulo en market, obligatorio si es limit (solo compras a ese precio o mejor)
 	- `estado` — el estado de la máquina
-		- pendiente
+		- Un encargo pendiente
 		- esperando_confirmacion
 		- procesando
 		- enviada
