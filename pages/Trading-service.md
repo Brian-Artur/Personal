@@ -2,7 +2,8 @@
 	- TradingView
 	- CloudFlare Tunnel (IP pública - webhook)
 	- [Hostinger](https://hpanel.hostinger.com/websites) (dominio)
-		-
+		- saddlebrown-lapwing-518942.hostingersite.com
+		- alexanderlight.es
 	- Windows 24/7
 		- React
 		- Node + Express
