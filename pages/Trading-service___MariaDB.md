@@ -22,7 +22,7 @@
 	- `symbol` — sobre qué moneda opera
 	- `qty` — tamaño de la operación (0.001, ...)
 	- `ventana_validez_seg` — cuán recientes deben ser las condiciones para valer. *900 = 15min*
-	- `confirmacion_expira_seg` — cuánto espera una propuesta semiautomática antes de caducar
+	- `confirmacion_expira_seg` — Si es semiautomática y te propone algo, ¿cuánto espera tu respuesta antes de rendirse? Si vale *300 (5 minutos)* y no confirmas en ese rato, *la propuesta se cae sola*.
 	- `estado_actual` — Evita compras duplicadas
 		- fuera
 		- en_largo
