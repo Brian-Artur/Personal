@@ -48,8 +48,8 @@
 		- *rechazada*
 		- *omitida*
 		- *error*
-	- `filled_qty` — cuánto se ha llenado. Porque a veces se tienen que haces mordiscos a distintos vendedores y precios.
-	- `avg_price` — precio medio de ejecución
+	- `filled_qty` — cuánto se ha llenado. Porque a veces se tienen que haces mordiscos a distintos vendedores y precios. Por eso se cuantifica cuánto trozo de la galleta te has comido
+	- `avg_price` — precio medio de ejecución. Porque se puede
 	- `motivo` — texto nulo, para guardar el porqué de un rechazo o error (oro para depurar)
 	- `confirmacion_expira_en` — marca de tiempo, solo para semiautomáticas en espera
 	- `creada_en` - Cuando nació
