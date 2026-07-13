@@ -11,7 +11,6 @@
 	- `recibida_en` — marca de tiempo
 - `reglas` — los parámetros de cada estrategia. *Cuándo actuar*.
   logseq.order-list-type:: number
-  collapsed:: true
 	- `id` — clave
 	- `nombre` — El mismo nombre que tenga el archivo con la lógica en .ts (p. ej. *rsi_reversion* -> *rsi_reversion.ts*)
 	- `activa` — Un interruptor por cada regla
