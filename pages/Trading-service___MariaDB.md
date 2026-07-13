@@ -16,8 +16,8 @@
 	- `activa` — Un interruptor por cada regla
 		- true
 		- false (booleano)
-	- `modo` —
-		- automatico
+	- `modo` — Ejecuta solo o pide permiso
+		- auto : dispara
 		- semiautomatico
 	- `symbol` — sobre qué moneda opera
 	- `qty` — tamaño de la operación
