@@ -4,7 +4,8 @@
 		- Por la semana suele haber entre 3 y 4 momentos intensos.
 			- Distanciados a 20 horas como mínimo y 48 horas como máximo.
 		- La 1ª hora del lunes puede haber mucho volumen.
-	-
+	- ## Temporalidad
+		- En temporalidad < H1 se
 	-
 - # Perfiles
 	- [alextrades.nq](https://www.instagram.com/alextrades.nq/)
