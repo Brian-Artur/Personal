@@ -30,7 +30,6 @@
 	- `actualizada_en`
 - `ordenes` — el intento de ejecución en Bybit (el corazón)
   logseq.order-list-type:: number
-  collapsed:: true
 	- `id` — clave
 	- `regla_id` — qué regla la originó (FK a `reglas`)
 	- `order_link_id` — tu identificador de cliente, **ÚNICO** (idempotencia: si reintentas tras un corte, Bybit deduplica)
