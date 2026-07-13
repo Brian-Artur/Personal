@@ -76,6 +76,7 @@
 	  logseq.order-list-type:: number
 - **`configuracion` — ajustes globales (clave/valor)**
   logseq.order-list-type:: number
+  collapsed:: true
 	- `clave` — clave primaria (p. ej. `trading_activo`)
 	  logseq.order-list-type:: number
 	- `valor` — el valor (`true`)
