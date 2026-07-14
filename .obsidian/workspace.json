@@ -49,7 +49,7 @@
             }
           },
           {
-            "id": "7f96ddd0e9f99027",
+            "id": "fbace957f0cb79b0",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -80,7 +80,10 @@
     "collapsed": true
   },
   "left-ribbon": {
-    "hiddenItems": {}
+    "hiddenItems": {
+      "github-sync:Sync with Remote": false,
+      "graph:Open graph view": false
+    }
   },
   "active": "bbda310ef0e98347",
   "lastOpenFiles": [

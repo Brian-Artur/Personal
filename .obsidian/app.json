@@ -1,8 +1,10 @@
 {
   "attachmentFolderPath": "_assets",
-  "useMarkdownLinks": true,
+  "useMarkdownLinks": false,
   "showInlineTitle": false,
   "newLinkFormat": "relative",
   "alwaysUpdateLinks": true,
-  "promptDelete": false
+  "promptDelete": false,
+  "focusNewTab": true,
+  "showUnsupportedFiles": true
 }
