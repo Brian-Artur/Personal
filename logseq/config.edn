@@ -429,4 +429,4 @@
  :excluded-pages? false
  :builtin-pages? true}
  :feature/enable-journals? false
- :default-home {}}
+ :default-home {:page "Trading"}}
