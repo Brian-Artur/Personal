@@ -423,4 +423,5 @@
  :feature/enable-timetracking? true
  :editor/logical-outdenting? true
  :feature/enable-flashcards? false
- :feature/enable-whiteboards? false}
+ :feature/enable-whiteboards? false
+ :graph/settings {:journal? true}}
