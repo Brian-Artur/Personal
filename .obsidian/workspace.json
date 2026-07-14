@@ -1,0 +1,194 @@
+{
+  "main": {
+    "id": "9622a76f0d5286c0",
+    "type": "split",
+    "children": [
+      {
+        "id": "552f49f70a97b750",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dbd278f879bd255b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/Peluquería Project.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Peluquería Project"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d1bc3a7e63df8866",
+    "type": "split",
+    "children": [
+      {
+        "id": "5ca6ba876f2ee777",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c4b1e9b80983d290",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "d00ac2a33a0e15d0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "a4db69be4e5d9ba6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "60fd146954dec00d",
+    "type": "split",
+    "children": [
+      {
+        "id": "ea2b8c61dc133eca",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6fff05fa658e0bd6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "pages/Peluquería Project.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Peluquería Project"
+            }
+          },
+          {
+            "id": "bc4699a8f58539fd",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "pages/Peluquería Project.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Peluquería Project"
+            }
+          },
+          {
+            "id": "6e89b5919810075b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "3b34b8951258bb79",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "6d8b564e67b3344e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "pages/Peluquería Project.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Peluquería Project"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "dbd278f879bd255b",
+  "lastOpenFiles": [
+    "pages/Develop.md",
+    "logseq/bak/journals/2026_07_05/2026-07-06T07_18_04.396Z.Desktop.md",
+    "logseq/bak/journals/2026_07_04/2026-07-06T13_04_51.316Z.android.md",
+    "logseq/bak/journals/2026_07_03/2026-07-03T19_07_45.072Z.android.md",
+    "logseq/bak/journals/2026_07_03/2026-07-03T18_37_37.742Z.android.md"
+  ]
+}
