@@ -1,0 +1,176 @@
+body {
+  --code-size: 1.02em; /* ajústalo: 1.1em, 14px, lo que prefieras */
+
+  --link-color: #e5b567;
+  --link-color-hover: #efc98a;
+  --link-external-color: #e5b567;
+  --link-external-color-hover: #efc98a;
+  --link-unresolved-color: #e5b567;
+
+  --h1-size: 1.55em !important; 
+  --h2-size: 1.35em !important;  
+  --h3-size: 1.25em !important;
+  --h4-size: 1.2em !important;
+  --h5-size: 1.15em !important;
+  --h6-size: 1.1em !important;
+}
+
+
+/* Negrita — vista de lectura */
+.markdown-rendered strong,
+.markdown-preview-view strong {
+  font-weight: 800;
+}
+/* Negrita — editor / Live Preview */
+.cm-s-obsidian .cm-strong {
+  font-weight: 800;
+}
+
+
+/* h1–h6 en blanco (lectura y editor) */
+body .markdown-preview-view :is(h1, h2, h3, h4, h5, h6),
+body .markdown-rendered :is(h1, h2, h3, h4, h5, h6),
+.cm-s-obsidian .HyperMD-header.cm-line {
+  color: #e0e2e1;
+}
+
+/* H1 — azul */
+.markdown-preview-view h1, .markdown-rendered h1,
+.HyperMD-header.HyperMD-header-1.cm-line {
+  background-color: rgba(46, 128, 242, 0.18);
+  padding: 2px 10px;
+  border-radius: 6px;
+}
+/* H2 — verde azulado */
+.markdown-preview-view h2, .markdown-rendered h2,
+.HyperMD-header.HyperMD-header-2.cm-line {
+  background-color: rgba(62, 180, 191, 0.18);
+  padding: 2px 10px;
+  border-radius: 6px;
+}
+/* H3 — naranja */
+.markdown-preview-view h3, .markdown-rendered h3,
+.HyperMD-header.HyperMD-header-3.cm-line {
+  background-color: rgba(232, 125, 62, 0.18);
+  padding: 2px 10px;
+  border-radius: 6px;
+}
+/* H4 — morado */
+.markdown-preview-view h4, .markdown-rendered h4,
+.HyperMD-header.HyperMD-header-4.cm-line {
+  background-color: rgba(160, 123, 225, 0.18);
+  padding: 2px 10px;
+  border-radius: 6px;
+}
+/* H5 — amarillo */
+.markdown-preview-view h5, .markdown-rendered h5,
+.HyperMD-header.HyperMD-header-5.cm-line {
+  background-color: rgba(198, 216, 103, 0.18);
+  padding: 2px 10px;
+  border-radius: 6px;
+}
+/* H6 — rosa */
+.markdown-preview-view h6, .markdown-rendered h6,
+.HyperMD-header.HyperMD-header-6.cm-line {
+  background-color: rgba(205, 130, 200, 0.18);
+  padding: 2px 10px;
+  border-radius: 6px;
+}
+
+.markdown-preview-view :is(h1, h2, h3, h4, h5, h6),
+.markdown-rendered :is(h1, h2, h3, h4, h5, h6) {
+  width: fit-content;
+  padding: 2px 10px;
+  border-radius: 6px;
+}
+
+
+/* Bloques de código en vista de lectura */
+.markdown-rendered pre,
+.markdown-rendered pre code {
+  line-height: 1.2; /* bájalo a tu gusto: 1.2, 1.25... */
+  border-radius: 12px !important;
+}
+
+/* Bloques de código en el editor (Live Preview / source) */
+.cm-s-obsidian .HyperMD-codeblock {
+  line-height: 1.2;
+  background-color: #232325 !important;
+}
+
+
+/* (Opcional) mismo efecto en el editor */
+.cm-s-obsidian .HyperMD-header.cm-line {
+  width: fit-content;
+}
+
+/* Código en línea — vista de lectura y editor */
+.markdown-rendered code:not(pre code),
+.cm-inline-code {
+  color: #e37b7b !important;/* rojo vino; ajusta el tono */
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  background-color: #29292c !important;
+}
+
+/* Texto de las citas en naranja */
+body {
+  --quote-color: #3ec6e8; /* el naranja que ya trae el tema */
+}
+
+/* Fondo gris con transparencia */
+body .markdown-preview-view blockquote,
+body .markdown-source-view.mod-cm6.is-live-preview .HyperMD-quote {
+  background-color: #232325 !important;
+}
+
+body.theme-dark {
+  --color-base-00: #181818; /* editor y vista previa */
+  --color-base-10: #222223; /* barra de título, fondos alternos */
+  --color-base-20: #1d1d1d; /* paneles laterales */
+  --color-base-25: #313134; /* hover, campos */
+  --color-base-30: #424246; /* bordes y marcos */
+  --color-base-35: #39393c;
+
+  --text-normal: #e0e2e1;
+}
+
+
+/* Cursiva — vista de lectura */
+.markdown-rendered em,
+.markdown-preview-view em {
+  color: #b4d273 !important; /* ajústalo a tu gusto */
+}
+/* Cursiva — editor / Live Preview */
+.cm-s-obsidian .cm-em {
+  color: #b4d273 !important;
+}
+
+
+/* Negrita+cursiva — vista de lectura */
+.markdown-rendered strong em,
+.markdown-rendered em strong,
+.markdown-preview-view strong em,
+.markdown-preview-view em strong {
+  color: #9e86c8 !important; /* morado; ajústalo */
+}
+/* Negrita+cursiva — editor / Live Preview */
+.cm-s-obsidian .cm-strong.cm-em {
+  color: #9e86c8 !important; 
+}
+
+/* Vista de lectura */
+.markdown-preview-view .markdown-preview-sizer {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-left: 0px !important; /* ajusta el padding a tu gusto */
+  padding-right: 0px !important;
+}
+
+/* Editor / Live Preview */
+.markdown-source-view.mod-cm6 .cm-sizer {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}

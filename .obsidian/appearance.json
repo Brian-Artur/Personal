@@ -1,1 +1,10 @@
-{}
+{
+  "cssTheme": "Things",
+  "enabledCssSnippets": [
+    "mi-tema"
+  ],
+  "monospaceFontFamily": "jetbrainsmono Nerd Font",
+  "showViewHeader": false,
+  "showRibbon": false,
+  "baseFontSize": 17
+}
