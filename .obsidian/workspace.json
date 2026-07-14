@@ -84,6 +84,8 @@
   },
   "active": "bbda310ef0e98347",
   "lastOpenFiles": [
+    "pages/excalidraw-library-items-storage.md",
+    "pages/Trading-service___MariaDB.md",
     "pages/TypeScript.md",
     "logseq/bak/pages/TypeScript/2026-07-14T09_30_59.244Z.Desktop.md",
     "logseq/bak/pages/TypeScript/2026-07-14T09_30_55.372Z.Desktop.md",
@@ -104,7 +106,6 @@
     "logseq/bak/pages/Develop/2026-07-06T15_07_19.577Z.Desktop.md",
     "logseq/bak/pages/Develop/2026-07-06T13_04_51.314Z.android.md",
     "pages/Trading-service.md",
-    "pages/Trading-service___MariaDB.md",
     "pages/Peluquería Project.md",
     "logseq/bak/pages/Peluquería Project/2026-07-14T09_16_16.913Z.Desktop.md",
     "logseq/bak/pages/Peluquería Project/2026-07-14T09_16_14.634Z.Desktop.md",
@@ -126,7 +127,6 @@
     "_tareas.md",
     "00_resumen.md",
     "README",
-    "04_NodeJS/05_primer_servidor/05_primer_servidor.md",
     "04_NodeJS/10_db_mongoose",
     "04_NodeJS/09_validaciones_dto",
     "04_NodeJS/08_sesion"
