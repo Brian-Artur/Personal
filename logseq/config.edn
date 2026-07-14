@@ -424,4 +424,7 @@
  :editor/logical-outdenting? true
  :feature/enable-flashcards? false
  :feature/enable-whiteboards? false
- :graph/settings {:journal? true}}
+ :graph/settings {:journal? false
+ :orphan-pages? true
+ :excluded-pages? false
+ :builtin-pages? true}}
