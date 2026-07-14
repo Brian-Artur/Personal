@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "logseq/bak/pages/Peluquería Project/2026-07-06T17_15_38.825Z.android.md",
+                "file": "pages/TypeScript.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "2026-07-06T17_15_38.825Z.android"
+              "title": "TypeScript"
             }
           }
         ]
@@ -84,6 +84,15 @@
   },
   "active": "bbda310ef0e98347",
   "lastOpenFiles": [
+    "pages/Develop.md",
+    "pages/contents.md",
+    "assets/Untitled-2026-06-13-1542.excalidraw_1783761409082_0.svg",
+    "assets/Untitled-2026-06-13-1542_1783337781635_0.svg",
+    "assets/image_1783979509602_0.png",
+    "assets/image_1783842207261_0.png",
+    "assets/image_1783805982544_0.png",
+    "assets/image_1783105581655_0.png",
+    "logseq/bak/pages/Peluquería Project/2026-07-06T17_15_38.825Z.android.md",
     "logseq/bak/pages/Develop/2026-07-06T15_07_19.577Z.Desktop.md",
     "logseq/bak/pages/Develop/2026-07-06T13_04_51.314Z.android.md",
     "pages/Trading-service.md",
@@ -92,9 +101,6 @@
     "logseq/bak/pages/Peluquería Project/2026-07-14T09_16_16.913Z.Desktop.md",
     "logseq/bak/pages/Peluquería Project/2026-07-14T09_16_14.634Z.Desktop.md",
     "logseq/bak/pages/Peluquería Project/2026-07-14T09_16_11.378Z.Desktop.md",
-    "pages/Develop.md",
-    "pages/contents.md",
-    "logseq/bak/pages/Peluquería Project/2026-07-06T17_15_38.825Z.android.md",
     "logseq/bak/journals/2026_07_03/2026-07-03T18_37_37.742Z.android.md",
     "logseq/bak/journals/2026_07_03/2026-07-03T19_07_45.072Z.android.md",
     "README.md",
@@ -103,16 +109,10 @@
     "_assets/Pasted image 20260714084237.png",
     "_assets/Pasted image 20260613130509.png",
     "_assets/Pasted image 20260613130620.png",
-    "_assets/Pasted image 20260613170412.png",
-    "_assets/Pasted image 20260613130309.png",
-    "_assets/Pasted image 20260613130213.png",
-    "_assets/Pasted image 20260613123213.png",
     "_assets",
-    "_assets/Pasted image 20260612174925.png",
     "01_temporalidades.md",
     "03_analisis.md",
     "04_mecanica_del_precio.md",
-    "01_temporalidades/_assets/Pasted image 20260612174706.png",
     "01_mercado-grafico.md",
     "01_temporalidades",
     "_tareas.md",
@@ -122,7 +122,6 @@
     "04_NodeJS/06 Express.md",
     "04_NodeJS/06_express/06_express.md",
     "04_NodeJS/07_autenticacion/07_autenticacion.md",
-    "04_NodeJS/07 Autenticacion.md",
     "04_NodeJS/10_db_mongoose",
     "04_NodeJS/09_validaciones_dto",
     "04_NodeJS/08_sesion",
