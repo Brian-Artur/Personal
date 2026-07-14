@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Peluquería Project.md",
+                "file": "logseq/bak/pages/Peluquería Project/2026-07-06T17_15_38.825Z.android.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Peluquería Project"
+              "title": "2026-07-06T17_15_38.825Z.android"
             }
           }
         ]
@@ -84,14 +84,17 @@
   },
   "active": "bbda310ef0e98347",
   "lastOpenFiles": [
+    "logseq/bak/pages/Develop/2026-07-06T15_07_19.577Z.Desktop.md",
+    "logseq/bak/pages/Develop/2026-07-06T13_04_51.314Z.android.md",
+    "pages/Trading-service.md",
+    "pages/Trading-service___MariaDB.md",
+    "pages/Peluquería Project.md",
     "logseq/bak/pages/Peluquería Project/2026-07-14T09_16_16.913Z.Desktop.md",
     "logseq/bak/pages/Peluquería Project/2026-07-14T09_16_14.634Z.Desktop.md",
     "logseq/bak/pages/Peluquería Project/2026-07-14T09_16_11.378Z.Desktop.md",
     "pages/Develop.md",
     "pages/contents.md",
     "logseq/bak/pages/Peluquería Project/2026-07-06T17_15_38.825Z.android.md",
-    "logseq/bak/pages/Develop/2026-07-06T15_07_19.577Z.Desktop.md",
-    "logseq/bak/pages/Develop/2026-07-06T13_04_51.314Z.android.md",
     "logseq/bak/journals/2026_07_03/2026-07-03T18_37_37.742Z.android.md",
     "logseq/bak/journals/2026_07_03/2026-07-03T19_07_45.072Z.android.md",
     "README.md",
@@ -120,9 +123,6 @@
     "04_NodeJS/06_express/06_express.md",
     "04_NodeJS/07_autenticacion/07_autenticacion.md",
     "04_NodeJS/07 Autenticacion.md",
-    "04_NodeJS/08_sesion/08_sesion.md",
-    "04_NodeJS/09 Sesion & Token.md",
-    "04_NodeJS/09_validaciones_dto/09_validaciones_dto.md",
     "04_NodeJS/10_db_mongoose",
     "04_NodeJS/09_validaciones_dto",
     "04_NodeJS/08_sesion",
