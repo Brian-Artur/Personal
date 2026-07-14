@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/TypeScript.md",
+                "file": "pages/Trading-service___MariaDB.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "TypeScript"
+              "title": "Trading-service___MariaDB"
             }
           }
         ]
@@ -84,6 +84,14 @@
   },
   "active": "bbda310ef0e98347",
   "lastOpenFiles": [
+    "pages/TypeScript.md",
+    "logseq/bak/pages/TypeScript/2026-07-14T09_30_59.244Z.Desktop.md",
+    "logseq/bak/pages/TypeScript/2026-07-14T09_30_55.372Z.Desktop.md",
+    "logseq/bak/pages/TypeScript/2026-07-14T09_30_43.735Z.Desktop.md",
+    "logseq/bak/pages/TypeScript",
+    "logseq/bak/pages",
+    "logseq/bak",
+    "logseq",
     "pages/Develop.md",
     "pages/contents.md",
     "assets/Untitled-2026-06-13-1542.excalidraw_1783761409082_0.svg",
@@ -119,15 +127,8 @@
     "00_resumen.md",
     "README",
     "04_NodeJS/05_primer_servidor/05_primer_servidor.md",
-    "04_NodeJS/06 Express.md",
-    "04_NodeJS/06_express/06_express.md",
-    "04_NodeJS/07_autenticacion/07_autenticacion.md",
     "04_NodeJS/10_db_mongoose",
     "04_NodeJS/09_validaciones_dto",
-    "04_NodeJS/08_sesion",
-    "04_NodeJS/07_autenticacion",
-    "04_NodeJS/06_express",
-    "04_NodeJS/05_primer_servidor",
-    "04_NodeJS/03_sist_modulos"
+    "04_NodeJS/08_sesion"
   ]
 }
