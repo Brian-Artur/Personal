@@ -423,4 +423,9 @@
  :feature/enable-timetracking? true
  :editor/logical-outdenting? true
  :feature/enable-flashcards? false
- :feature/enable-whiteboards? true}
+ :feature/enable-whiteboards? false
+ :graph/settings {:journal? false
+ :orphan-pages? true
+ :excluded-pages? false
+ :builtin-pages? true}
+ :feature/enable-journals? false}
