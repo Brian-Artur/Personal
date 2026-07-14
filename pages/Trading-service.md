@@ -31,4 +31,8 @@
 - # V5
 	- Definir reglas-estrategias, desde la interfaz
 	- ![image.png](../assets/image_1783842207261_0.png)
+	- Esto es un punto interno de este bloque
+	  En el que sigo escribiendo
+	  
+	  Puede que merezca la pena seguir construllendo en este sitio.
 -
