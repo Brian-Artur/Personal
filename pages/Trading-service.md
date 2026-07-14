@@ -29,6 +29,6 @@
 	- > Cuidado con los datos futuros
 	-
 - # V5
-  collapsed:: true
 	- Definir reglas-estrategias, desde la interfaz
 	- ![image.png](../assets/image_1783842207261_0.png)
+-
