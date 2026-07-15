@@ -10,19 +10,32 @@
           {
             "id": "bbda310ef0e98347",
             "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "graph",
+              "state": {},
+              "pinned": true,
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "62689d5523458eef",
+            "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Trading-service___MariaDB.md",
+                "file": "trading/bot-trading/01 - bot_trading.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Trading-service___MariaDB"
+              "title": "01 - bot_trading"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,15 +94,27 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "github-sync:Sync with Remote": false,
       "graph:Open graph view": false
     }
   },
-  "active": "ea75680b0bece75e",
+  "active": "62689d5523458eef",
   "lastOpenFiles": [
+    "trading/bot-trading/00 - Idea inicial.md",
+    "trading/bot-trading/01 - bot_trading.md",
+    "develop/Peluqueria Project/01 - Tareas.md",
+    "develop/Peluqueria Project/00 - Peluquería Project.md",
+    "trading/Trading.md",
+    "trading/bot-trading",
+    "trading/MariaDB.md",
+    "develop/Peluqueria Project",
+    "develop/Develop.md",
+    "english",
+    "politic",
+    "trading",
+    "develop",
+    "develop/React.md",
     "pages/excalidraw-library-items-storage.md",
-    "pages/Trading-service___MariaDB.md",
-    "pages/TypeScript.md",
+    "develop/TypeScript.md",
     "logseq/bak/pages/TypeScript/2026-07-14T09_30_59.244Z.Desktop.md",
     "logseq/bak/pages/TypeScript/2026-07-14T09_30_55.372Z.Desktop.md",
     "logseq/bak/pages/TypeScript/2026-07-14T09_30_43.735Z.Desktop.md",
@@ -97,7 +122,6 @@
     "logseq/bak/pages",
     "logseq/bak",
     "logseq",
-    "pages/Develop.md",
     "pages/contents.md",
     "_assets/Untitled-2026-06-13-1542.excalidraw_1783761409082_0.svg",
     "_assets/Untitled-2026-06-13-1542_1783337781635_0.svg",
@@ -108,8 +132,6 @@
     "logseq/bak/pages/Peluquería Project/2026-07-06T17_15_38.825Z.android.md",
     "logseq/bak/pages/Develop/2026-07-06T15_07_19.577Z.Desktop.md",
     "logseq/bak/pages/Develop/2026-07-06T13_04_51.314Z.android.md",
-    "pages/Trading-service.md",
-    "pages/Peluquería Project.md",
     "logseq/bak/pages/Peluquería Project/2026-07-14T09_16_16.913Z.Desktop.md",
     "logseq/bak/pages/Peluquería Project/2026-07-14T09_16_14.634Z.Desktop.md",
     "logseq/bak/pages/Peluquería Project/2026-07-14T09_16_11.378Z.Desktop.md",
@@ -121,17 +143,7 @@
     "_assets/Pasted image 20260714084237.png",
     "_assets/Pasted image 20260613130509.png",
     "_assets/Pasted image 20260613130620.png",
-    "_assets",
     "01_temporalidades.md",
-    "03_analisis.md",
-    "04_mecanica_del_precio.md",
-    "01_mercado-grafico.md",
-    "01_temporalidades",
-    "_tareas.md",
-    "00_resumen.md",
-    "README",
-    "04_NodeJS/10_db_mongoose",
-    "04_NodeJS/09_validaciones_dto",
-    "04_NodeJS/08_sesion"
+    "03_analisis.md"
   ]
 }

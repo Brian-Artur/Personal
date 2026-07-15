@@ -6,5 +6,6 @@
   "alwaysUpdateLinks": true,
   "promptDelete": false,
   "focusNewTab": true,
-  "showUnsupportedFiles": true
+  "showUnsupportedFiles": true,
+  "readableLineLength": false
 }

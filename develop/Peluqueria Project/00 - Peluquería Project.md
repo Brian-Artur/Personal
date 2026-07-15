@@ -1,45 +1,49 @@
+# Índice
+
+[[01 - Tareas]]
+
 # Modelo de negocio
-collapsed:: true
-	- ## Palabras clave
-		- 3 Sustantivos
-			- **Cliente** *( id, nombre, telefono )*
-			- **Servicio** *( id, nombre, duracion_min, precio)*
-			- **Cita** *( id, cliente_id, servicio_id, inicio, estado )*
-				- estado : ENUM('reservada','cancelada','completada')
-		- 3 Verbos
-			- **Crear**
-			- **Modificar**
-			- **Cancelar**
--
-- # Estrategia de ramas (git)
-  id:: 6a4b918d-8f38-403e-a320-c84e36bc592f
-  collapsed:: true
-	- ![Untitled-2026-06-13-1542.svg](../_assets/Untitled-2026-06-13-1542_1783337781635_0.svg){:height 142, :width 576}
-	-
--
-- # Agenda - Calendario
-	- ## 1. **Esqueleto**: monorepo
-		- frontent : React
-		- backend : Node + Express
-		- infra : mariadb
-		- ### v0
-			- Crear la estructura y entrar
-			- Inicializar Git
-			- El `.gitignore` raíz
-			- El `README.md` de una línea
-			- Meter los `.gitkeep` (antes del `add`)
-			- El primer commit — v0
-			- ![Untitled-2026-06-13-1542.excalidraw.svg](../_assets/Untitled-2026-06-13-1542.excalidraw_1783761409082_0.svg)
-		- ### v1
-			- Crear el contenerdor para la base de datos.
-				- Crear `db.env` con la contraseña del *root* y del *usuario-app*. Es solo para la base de datos.
-				  logseq.order-list-type:: number
-				  collapsed:: true
-					- El usuario *root* se llama así siempre
-					- El usuario que usa la app es el que defino. Pero no hace falta calentarse la cabe za con el nombre.
-				- Crear `docker-compose.yml`.
-				  logseq.order-list-type:: number
-				- Crear carpeta *initdb/* con archivos *.sql* para que se ejecute en la primerísima instancia de volumen que se generará.
+
+## Palabras clave
+
+- **Cliente** *( id, nombre, telefono )*
+- **Servicio** *( id, nombre, duracion_min, precio)*
+- **Cita** *( id, cliente_id, servicio_id, inicio, estado )*
+	- estado : ENUM('reservada','cancelada','completada')
+
+- **Crear**
+- **Modificar**
+- **Cancelar**
+
+# Estrategia de ramas (git)
+
+![Untitled-2026-06-13-1542.svg](../../_assets/Untitled-2026-06-13-1542_1783337781635_0.svg)
+
+# Agenda - Calendario
+
+## 1. **Esqueleto**: monorepo
+
+- frontent : React
+- backend : Node + Express
+- infra : mariadb
+
+### v0
+- Crear la estructura y entrar
+- Inicializar Git
+- El `.gitignore` raíz
+- El `README.md` de una línea
+- Meter los `.gitkeep` (antes del `add`)
+- El primer commit — v0
+ 
+ ![Untitled-2026-06-13-1542.excalidraw.svg](../../_assets/Untitled-2026-06-13-1542.excalidraw_1783761409082_0.svg)
+
+### v1
+- Crear el contenerdor para la base de datos.
+- Crear `db.env` con la contraseña del *root* y del *usuario-app*. Es solo para la base de datos.
+	- El usuario *root* se llama así siempre
+	- El usuario que usa la app es el que defino. Pero no hace falta calentarse la cabe za con el nombre.
+	- Crear `docker-compose.yml`.
+	- Crear carpeta *initdb/* con archivos *.sql* para que se ejecute en la primerísima instancia de volumen que se generará.
 				  logseq.order-list-type:: number
 				- Añadir la línea `./initdb:/docker-entrypoint-initdb.d` a volumes de `docker-compose.yml`.
 				  logseq.order-list-type:: number
@@ -58,7 +62,7 @@ collapsed:: true
 					  id:: 6a4ce089-e55d-4a05-92ef-628de05915c7
 					- **`src/routes/health.ts`** — la ruta honesta:
 					- **`src/index.ts`** — arranca el servidor
-					- ![image.png](../_assets/image_1783437370818_0.png)
+					- ![image.png](../../_assets/image_1783437370818_0.png)
 					- Colocar un `src/.env` con las credenciales para que no lo pille GitHub.
 					- Instalar dependencia de producción: dotenv
 			- Pasar del */health* a un servicio con rutas.
@@ -124,7 +128,7 @@ collapsed:: true
 		- Proxy de Vite reenvía `/api` al backend
 			- Evita CORS en desarrollo
 			- En producción lo resolverá Nginx
-		- ![image.png](../_assets/image_1783960378557_0.png)
+		- ![image.png](../../_assets/image_1783960378557_0.png)
 	- ## Pendiente de cerrar
 		- Panel único: **crear / ver / mover / cancelar** por click
 		- Pulido estético
@@ -183,6 +187,3 @@ collapsed:: true
 		- Tiempo real vs estimado (¿se pasó?, ¿llamo a quien libraba?)
 	- Zona de espera / gestión de cola
 	- Congelar precio en la cita al vender (como el `fin`) → histórico inmutable de facturación
--
--
--

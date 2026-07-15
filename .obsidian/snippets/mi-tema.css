@@ -1,5 +1,6 @@
+
 body {
-  --code-size: 1.02em; /* ajústalo: 1.1em, 14px, lo que prefieras */
+  --code-size: 0.95em; /* ajústalo: 1.1em, 14px, lo que prefieras */
 
   --link-color: #e5b567;
   --link-color-hover: #efc98a;
@@ -13,6 +14,8 @@ body {
   --h4-size: 1.2em !important;
   --h5-size: 1.15em !important;
   --h6-size: 1.1em !important;
+
+  --file-line-width: 600px;
 }
 
 
@@ -159,18 +162,11 @@ body.theme-dark {
   color: #9e86c8 !important; 
 }
 
-/* Vista de lectura */
-.markdown-preview-view .markdown-preview-sizer {
-  margin-left: 0 !important;
-  margin-right: 0 !important;
-  padding-left: 0px !important; /* ajusta el padding a tu gusto */
-  padding-right: 0px !important;
-}
-
-/* Editor / Live Preview */
+/* Ancho de línea — lectura y editor */
+.markdown-preview-view .markdown-preview-sizer,
 .markdown-source-view.mod-cm6 .cm-sizer {
-  margin-left: 0 !important;
-  margin-right: 0 !important;
-  padding-left: 0px !important;
-  padding-right: 0px !important;
+  max-width: 800px !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  padding-top: 0 !important;
 }
