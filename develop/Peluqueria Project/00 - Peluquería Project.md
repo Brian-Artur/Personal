@@ -1,23 +1,8 @@
 # Índice
 
 [[01 - Tareas]]
+[[02 - Estrategia de ramas]]
 
-# Modelo de negocio
-
-## Palabras clave
-
-- **Cliente** *( id, nombre, telefono )*
-- **Servicio** *( id, nombre, duracion_min, precio)*
-- **Cita** *( id, cliente_id, servicio_id, inicio, estado )*
-	- estado : ENUM('reservada','cancelada','completada')
-
-- **Crear**
-- **Modificar**
-- **Cancelar**
-
-# Estrategia de ramas (git)
-
-![Untitled-2026-06-13-1542.svg](../../_assets/Untitled-2026-06-13-1542_1783337781635_0.svg)
 
 # Agenda - Calendario
 
@@ -28,17 +13,16 @@
 - infra : mariadb
 
 ### v0
-- Crear la estructura y entrar
+1. Crear la estructura: React | Node + Express | MariaDB (docker compose) 
 - Inicializar Git
 - El `.gitignore` raíz
 - El `README.md` de una línea
-- Meter los `.gitkeep` (antes del `add`)
-- El primer commit — v0
+- El primer commit 
  
- ![Untitled-2026-06-13-1542.excalidraw.svg](../../_assets/Untitled-2026-06-13-1542.excalidraw_1783761409082_0.svg)
+ ![Untitled-2026-06-13-1542.excalidraw.svg|551](../../_assets/Untitled-2026-06-13-1542.excalidraw_1783761409082_0.svg)
 
 ### v1
-- Crear el contenerdor para la base de datos.
+- Crear el contenedor para la base de datos.
 - Crear `db.env` con la contraseña del *root* y del *usuario-app*. Es solo para la base de datos.
 	- El usuario *root* se llama así siempre
 	- El usuario que usa la app es el que defino. Pero no hace falta calentarse la cabe za con el nombre.

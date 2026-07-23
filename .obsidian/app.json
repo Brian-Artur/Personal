@@ -7,5 +7,6 @@
   "promptDelete": false,
   "focusNewTab": true,
   "showUnsupportedFiles": true,
-  "readableLineLength": false
+  "readableLineLength": false,
+  "tabSize": 3
 }

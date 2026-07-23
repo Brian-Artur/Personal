@@ -25,13 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "trading/bot-trading/01 - bot_trading.md",
+                "file": "trading/bot-trading/00 - Idea inicial.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "01 - bot_trading"
+              "title": "00 - Idea inicial"
             }
           }
         ],
@@ -99,13 +99,19 @@
   },
   "active": "62689d5523458eef",
   "lastOpenFiles": [
-    "trading/bot-trading/00 - Idea inicial.md",
+    "trading/bot-trading/Untitled.md",
+    "trading/bot-trading/03 - estetica.md",
+    "trading/bot-trading/02 - funcionamiento.md",
     "trading/bot-trading/01 - bot_trading.md",
-    "develop/Peluqueria Project/01 - Tareas.md",
+    "trading/bot-trading/00 - Idea inicial.md",
+    "develop/01 - carta restaurante.md",
     "develop/Peluqueria Project/00 - Peluquería Project.md",
+    "develop/Peluqueria Project/02 - Estrategia de ramas.md",
+    "develop/Peluqueria Project/01 - Tareas.md",
+    "trading/bot-trading/03 - namiento.md",
     "trading/Trading.md",
-    "trading/bot-trading",
     "trading/MariaDB.md",
+    "trading/bot-trading",
     "develop/Peluqueria Project",
     "develop/Develop.md",
     "english",
@@ -135,15 +141,9 @@
     "logseq/bak/pages/Peluquería Project/2026-07-14T09_16_16.913Z.Desktop.md",
     "logseq/bak/pages/Peluquería Project/2026-07-14T09_16_14.634Z.Desktop.md",
     "logseq/bak/pages/Peluquería Project/2026-07-14T09_16_11.378Z.Desktop.md",
-    "logseq/bak/journals/2026_07_03/2026-07-03T18_37_37.742Z.android.md",
-    "logseq/bak/journals/2026_07_03/2026-07-03T19_07_45.072Z.android.md",
-    "README.md",
-    "01_elementos_necesarios.md",
     "_assets/Pasted image 20260714084242.png",
     "_assets/Pasted image 20260714084237.png",
     "_assets/Pasted image 20260613130509.png",
-    "_assets/Pasted image 20260613130620.png",
-    "01_temporalidades.md",
-    "03_analisis.md"
+    "_assets/Pasted image 20260613130620.png"
   ]
 }

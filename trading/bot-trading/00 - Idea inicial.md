@@ -22,6 +22,9 @@
 
 # V3
 - React para ver los históricos de Pandas
+- Aviso de `"tipo": "heartbeat"` que se lanza cada hora desde TradingView al bot.
+	- Si el bot lleva *2 horas* sin detectar ese aviso, lanza un mansaje a Telegram.
+
 
 # V4
 - ML : [SciKit-Learn](https://scikit-learn.org/stable/#)
