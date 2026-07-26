@@ -22,11 +22,11 @@ body {
 /* Negrita — vista de lectura */
 .markdown-rendered strong,
 .markdown-preview-view strong {
-  font-weight: 800;
+  font-weight: 700;
 }
 /* Negrita — editor / Live Preview */
 .cm-s-obsidian .cm-strong {
-  font-weight: 800;
+  font-weight: 700;
 }
 
 
