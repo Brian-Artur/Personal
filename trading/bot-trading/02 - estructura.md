@@ -1,13 +1,4 @@
-# Orden de arranque
-
-1. Estructura del monorepo + git
-2. MariaDB en Docker + esquema
-3. Esqueleto de Express con capas
-4. `/webhook` probado con Postman
-5. React
-
 # Estructura
-
 ```
 bot-trading/
 ├── backend/
@@ -16,8 +7,7 @@ bot-trading/
 └── .gitignore
 ```
 
-# Infra
-
+## Infra
 ```
 infra/
 ├── docker-compose.yml      # orquesta todos los servicios
@@ -33,14 +23,16 @@ infra/
 ## MariaDB
 
 Para levantar la imagen de MariaDB
-
 ```bash
 docker compose up -d
+```
+
+Para listar la imagen de mariadb
+```bash
 docker compose logs mariadb | grep -i "01_esquema"
 ```
 
 Para comprobar que funciona
-
 ```bash
 docker exec -it bot_mariadb mariadb -u bot -p1234 bot_trading -e "SHOW TABLES;"
 ```

@@ -27,4 +27,4 @@
 
 - No se puede trabajar en futuros, ni apalancado. Porque Bybit no cuenta con licencia MiFID 2.
 
-- [[bot-trading/00 - Idea inicial|00 - Idea inicial]]
+- [[bot-trading/01 - versiones|01 - versiones]]

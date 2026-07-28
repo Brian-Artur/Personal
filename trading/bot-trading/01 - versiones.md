@@ -8,7 +8,7 @@
 - Windows 24/7
 	- React
 	- Node + Express
-	- [[Trading-service/MariaDB]]
+	- MariaDB
 - Bybit (operar)
 
 # V2
@@ -19,6 +19,12 @@
 		- Exchanges : Bybit, KuCoin y Binance
 	- Pasar datos a Pandas
 		- Transformar datos para incormporar a tabla de MariaDB
+- Conversor acciones/criptos a EURO
+- Registro de activos fuera de las exchanges conocidos. Usar un estado pasivo, no operable.
+- **Capa de monedero**: `cuenta → monedero → (moneda, cantidad)`. Reestructura la PK de `saldo`.
+- **Reglas N:M**: tabla `regla_cuenta`, una regla aplicable a varias cuentas.
+- Revisar convención de ***nombres de cuenta*** antes de activar las reales — solo letras/números/guion_bajo, porque generan el nombre de la variable de entorno"
+- Tabla `regla_cuenta` N:M para MariaDB. Reglas que apliquen a más de una cuenta.
 
 # V3
 - React para ver los históricos de Pandas
