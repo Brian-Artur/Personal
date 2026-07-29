@@ -25,13 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "trading/bot-trading/08 - arranque.md",
+                "file": "trading/bot-trading/10 - contrato.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "08 - arranque"
+              "title": "10 - contrato"
             }
           }
         ],
@@ -99,10 +99,10 @@
   },
   "active": "62689d5523458eef",
   "lastOpenFiles": [
-    "trading/bot-trading/01 - versiones.md",
-    "trading/bot-trading/10 - contrato.md",
     "trading/bot-trading/08 - arranque.md",
     "trading/bot-trading/09 - flujos.md",
+    "trading/bot-trading/01 - versiones.md",
+    "trading/bot-trading/10 - contrato.md",
     "trading/bot-trading/04 - estetica.md",
     "trading/bot-trading/06 - estructura mariadb.md",
     "trading/bot-trading/07 - respuesta bybit.md",

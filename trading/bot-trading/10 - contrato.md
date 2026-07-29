@@ -1,4 +1,5 @@
 # Contrato de cuentas
+
 para cada cuenta en `cuentas`:
   si NO activa → ignorar
   si activa:
