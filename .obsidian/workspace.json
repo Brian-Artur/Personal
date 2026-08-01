@@ -25,13 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "trading/bot-trading/10 - contrato.md",
+                "file": "trading/bot-trading/11 - alerta alex.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "10 - contrato"
+              "title": "11 - alerta alex"
             }
           }
         ],
@@ -55,7 +55,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -97,24 +99,25 @@
       "graph:Open graph view": false
     }
   },
-  "active": "62689d5523458eef",
+  "active": "ea75680b0bece75e",
   "lastOpenFiles": [
-    "trading/bot-trading/08 - arranque.md",
-    "trading/bot-trading/09 - flujos.md",
-    "trading/bot-trading/01 - versiones.md",
-    "trading/bot-trading/10 - contrato.md",
-    "trading/bot-trading/04 - estetica.md",
+    "trading/Trading.md",
+    "trading/bot-trading/11 - alerta alex.md",
     "trading/bot-trading/06 - estructura mariadb.md",
     "trading/bot-trading/07 - respuesta bybit.md",
-    "develop/react/TypeScript.md",
+    "trading/bot-trading/08 - arranque.md",
     "trading/bot-trading/05 - iniciar conexion.md",
+    "trading/bot-trading/04 - estetica.md",
+    "trading/bot-trading/03 - funcionamiento.md",
+    "trading/bot-trading/02 - estructura.md",
+    "trading/bot-trading/10 - contrato.md",
+    "trading/bot-trading/09 - flujos.md",
+    "trading/bot-trading/01 - versiones.md",
+    "develop/react/TypeScript.md",
     "develop/react/React.md",
     "develop/react",
-    "trading/bot-trading/03 - funcionamiento.md",
     "Pensamientos.md",
-    "trading/Trading.md",
     "trading/bot-trading/00 - index.md",
-    "trading/bot-trading/02 - estructura.md",
     "develop/Tramas/02 - Versiones.md",
     "develop/Tramas/01 - Objetivo.md",
     "develop/Tramas",
@@ -133,7 +136,6 @@
     "trading",
     "develop",
     "pages/excalidraw-library-items-storage.md",
-    "logseq/bak/pages/TypeScript/2026-07-14T09_30_59.244Z.Desktop.md",
     "logseq/bak/pages/TypeScript",
     "logseq/bak/pages",
     "_assets/Untitled-2026-06-13-1542.excalidraw_1783761409082_0.svg",
