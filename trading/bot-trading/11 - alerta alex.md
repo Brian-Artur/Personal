@@ -49,3 +49,4 @@
 
 Cuando metas **órdenes límite** (post-v1 de Alex), cambiar `walletBalance` → `availableToWithdraw` en `BybitConsultor`, porque las límite bloquean fondos y el total dejaría de reflejar lo vendible.
 
+El `valor` de alertas tipo rsi/macd queda NULL de momento. Se autocompletará en v2/v3 desde el servicio de análisis (Python + pandas), calculando el indicador para `disparada_en` y `temporalidad` a partir del histórico OHLCV por REST. Pine Script descartado por ahora — demasiado denso, bloquea la v1.
